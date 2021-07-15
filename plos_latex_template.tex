@@ -1,0 +1,359 @@
+% Template for PLoS
+% Version 3.5 March 2018
+%
+% % % % % % % % % % % % % % % % % % % % % %
+%
+% -- IMPORTANT NOTE
+%
+% This template contains comments intended 
+% to minimize problems and delays during our production 
+% process. Please follow the template instructions
+% whenever possible.
+%
+% % % % % % % % % % % % % % % % % % % % % % % 
+%
+% Once your paper is accepted for publication, 
+% PLEASE REMOVE ALL TRACKED CHANGES in this file 
+% and leave only the final text of your manuscript. 
+% PLOS recommends the use of latexdiff to track changes during review, as this will help to maintain a clean tex file.
+% Visit https://www.ctan.org/pkg/latexdiff?lang=en for info or contact us at latex@plos.org.
+%
+%
+% There are no restrictions on package use within the LaTeX files except that 
+% no packages listed in the template may be deleted.
+%
+% Please do not include colors or graphics in the text.
+%
+% The manuscript LaTeX source should be contained within a single file (do not use \input, \externaldocument, or similar commands).
+%
+% % % % % % % % % % % % % % % % % % % % % % %
+%
+% -- FIGURES AND TABLES
+%
+% Please include tables/figure captions directly after the paragraph where they are first cited in the text.
+%
+% DO NOT INCLUDE GRAPHICS IN YOUR MANUSCRIPT
+% - Figures should be uploaded separately from your manuscript file. 
+% - Figures generated using LaTeX should be extracted and removed from the PDF before submission. 
+% - Figures containing multiple panels/subfigures must be combined into one image file before submission.
+% For figure citations, please use "Fig" instead of "Figure".
+% See http://journals.plos.org/plosone/s/figures for PLOS figure guidelines.
+%
+% Tables should be cell-based and may not contain:
+% - spacing/line breaks within cells to alter layout or alignment
+% - do not nest tabular environments (no tabular environments within tabular environments)
+% - no graphics or colored text (cell background color/shading OK)
+% See http://journals.plos.org/plosone/s/tables for table guidelines.
+%
+% For tables that exceed the width of the text column, use the adjustwidth environment as illustrated in the example table in text below.
+%
+% % % % % % % % % % % % % % % % % % % % % % % %
+%
+% -- EQUATIONS, MATH SYMBOLS, SUBSCRIPTS, AND SUPERSCRIPTS
+%
+% IMPORTANT
+% Below are a few tips to help format your equations and other special characters according to our specifications. For more tips to help reduce the possibility of formatting errors during conversion, please see our LaTeX guidelines at http://journals.plos.org/plosone/s/latex
+%
+% For inline equations, please be sure to include all portions of an equation in the math environment.  For example, x$^2$ is incorrect; this should be formatted as $x^2$ (or $\mathrm{x}^2$ if the romanized font is desired).
+%
+% Do not include text that is not math in the math environment. For example, CO2 should be written as CO\textsubscript{2} instead of CO$_2$.
+%
+% Please add line breaks to long display equations when possible in order to fit size of the column. 
+%
+% For inline equations, please do not include punctuation (commas, etc) within the math environment unless this is part of the equation.
+%
+% When adding superscript or subscripts outside of brackets/braces, please group using {}.  For example, change "[U(D,E,\gamma)]^2" to "{[U(D,E,\gamma)]}^2". 
+%
+% Do not use \cal for caligraphic font.  Instead, use \mathcal{}
+%
+% % % % % % % % % % % % % % % % % % % % % % % % 
+%
+% Please contact latex@plos.org with any questions.
+%
+% % % % % % % % % % % % % % % % % % % % % % % %
+
+\documentclass[10pt,letterpaper]{article}
+\usepackage[top=0.85in,left=2.75in,footskip=0.75in]{geometry}
+
+% amsmath and amssymb packages, useful for mathematical formulas and symbols
+\usepackage{amsmath,amssymb}
+
+% Use adjustwidth environment to exceed column width (see example table in text)
+\usepackage{changepage}
+
+% Use Unicode characters when possible
+\usepackage[utf8x]{inputenc}
+
+% textcomp package and marvosym package for additional characters
+\usepackage{textcomp,marvosym}
+
+% cite package, to clean up citations in the main text. Do not remove.
+\usepackage{cite}
+
+% Use nameref to cite supporting information files (see Supporting Information section for more info)
+\usepackage{nameref,hyperref}
+
+% line numbers
+\usepackage[right]{lineno}
+
+% ligatures disabled
+\usepackage{microtype}
+\DisableLigatures[f]{encoding = *, family = * }
+
+% color can be used to apply background shading to table cells only
+\usepackage[table]{xcolor}
+
+% array package and thick rules for tables
+\usepackage{array}
+
+% create "+" rule type for thick vertical lines
+\newcolumntype{+}{!{\vrule width 2pt}}
+
+% create \thickcline for thick horizontal lines of variable length
+\newlength\savedwidth
+\newcommand\thickcline[1]{%
+  \noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
+  \cline{#1}%
+  \noalign{\vskip\arrayrulewidth}%
+  \noalign{\global\arrayrulewidth\savedwidth}%
+}
+
+% \thickhline command for thick horizontal lines that span the table
+\newcommand\thickhline{\noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
+\hline
+\noalign{\global\arrayrulewidth\savedwidth}}
+
+
+% Remove comment for double spacing
+%\usepackage{setspace} 
+%\doublespacing
+
+% Text layout
+\raggedright
+\setlength{\parindent}{0.5cm}
+\textwidth 5.25in 
+\textheight 8.75in
+
+% Bold the 'Figure #' in the caption and separate it from the title/caption with a period
+% Captions will be left justified
+\usepackage[aboveskip=1pt,labelfont=bf,labelsep=period,justification=raggedright,singlelinecheck=off]{caption}
+\renewcommand{\figurename}{Fig}
+
+% Use the PLoS provided BiBTeX style
+\bibliographystyle{plos2015}
+
+% Remove brackets from numbering in List of References
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+
+
+
+% Header and Footer with logo
+\usepackage{lastpage,fancyhdr,graphicx}
+\usepackage{epstopdf}
+%\pagestyle{myheadings}
+\pagestyle{fancy}
+\fancyhf{}
+%\setlength{\headheight}{27.023pt}
+%\lhead{\includegraphics[width=2.0in]{PLOS-submission.eps}}
+\rfoot{\thepage/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrule}{\hrule height 2pt \vspace{2mm}}
+\fancyheadoffset[L]{2.25in}
+\fancyfootoffset[L]{2.25in}
+\lfoot{\today}
+
+%% Include all macros below
+
+\newcommand{\lorem}{{\bf LOREM}}
+\newcommand{\ipsum}{{\bf IPSUM}}
+
+%% END MACROS SECTION
+
+
+\begin{document}
+\vspace*{0.2in}
+
+% Title must be 250 characters or less.
+\begin{flushleft}
+{\Large
+\textbf\newline{Ten simple rules towards an inclusive conference} % Please use "sentence case" for title and headings (capitalize only the first word in a title (or heading), the first word in a subtitle (or subheading), and any proper nouns).
+}
+\newline
+% Insert author names, affiliations and corresponding author email (do not include titles, positions, or degrees).
+\\
+Name1 Surname\textsuperscript{1,2\Yinyang},
+Name2 Surname\textsuperscript{2\Yinyang},
+Name3 Surname\textsuperscript{2,3\textcurrency},
+Name4 Surname\textsuperscript{2},
+Name5 Surname\textsuperscript{2\ddag},
+Name6 Surname\textsuperscript{2\ddag},
+Name7 Surname\textsuperscript{1,2,3*},
+with the Lorem Ipsum Consortium\textsuperscript{\textpilcrow}
+\\
+\bigskip
+\textbf{1} Affiliation Dept/Program/Center, Institution Name, City, State, Country
+\\
+\textbf{2} Affiliation Dept/Program/Center, Institution Name, City, State, Country
+\\
+\textbf{3} Affiliation Dept/Program/Center, Institution Name, City, State, Country
+\\
+\bigskip
+
+% Insert additional author notes using the symbols described below. Insert symbol callouts after author names as necessary.
+% 
+% Remove or comment out the author notes below if they aren't used.
+%
+% Primary Equal Contribution Note
+\Yinyang These authors contributed equally to this work.
+
+% Additional Equal Contribution Note
+% Also use this double-dagger symbol for special authorship notes, such as senior authorship.
+\ddag These authors also contributed equally to this work.
+
+% Current address notes
+\textcurrency Current Address: Dept/Program/Center, Institution Name, City, State, Country % change symbol to "\textcurrency a" if more than one current address note
+% \textcurrency b Insert second current address 
+% \textcurrency c Insert third current address
+
+% Deceased author note
+\dag Deceased
+
+% Group/Consortium Author Note
+\textpilcrow Membership list can be found in the Acknowledgments section.
+
+% Use the asterisk to denote corresponding authorship and provide email address in note below.
+* correspondingauthor@institute.edu
+
+\end{flushleft}
+% Please keep the abstract below 300 words
+\section*{Abstract (optional from what I've seen)}
+
+In July 2021, the authors of this article, along with a larger group of people, organized a global and virtual conference for users and developers of the R software, useR!2021. useR! conferences are non-profit conferences organized by volunteers for the community, supported by the R Foundation. Attendees are from the academia and the industry. We aimed at building a high-quality conference in a kind, inclusive, accessible, and welcoming environment for everyone. We would like to share the lessons learned within a year of work organizing this conference, as 10 simple rules towards an inclusive conference. UseR! These rules apply to academic, industry, or mixed conferences; the rules are inspired by a global experience but can also be applied to regional or local conferences. 
+
+
+% % Please keep the Author Summary between 150 and 200 words
+% % Use first person. PLOS ONE authors please skip this step. 
+% % Author Summary not valid for PLOS ONE submissions.   
+% \section*{Author summary (I don't think we need it)}
+% Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget porta erat. Morbi consectetur est vel gravida pretium. Suspendisse ut dui eu ante cursus gravida non sed sem. Nullam sapien tellus, commodo id velit id, eleifend volutpat quam. Phasellus mauris velit, dapibus finibus elementum vel, pulvinar non tellus. Nunc pellentesque pretium diam, quis maximus dolor faucibus id. Nunc convallis sodales ante, ut ullamcorper est egestas vitae. Nam sit amet enim ultrices, ultrices elit pulvinar, volutpat risus.
+
+\linenumbers
+
+% Use "Eq" instead of "Equation" for equation citations.
+\section*{Introduction}
+
+Conferences are spaces to meet and reconnect with a specific community, learn from the new work in the field and share our own work. The larger the conference, the larger the network and opportunities to meet and learn. However, just like in science and academia in general, conferences can become an exclusive space for a privileged group (e.g. white, male, from a rich country, English-native speaker, with no physical disabilities).
+
+This article aims at suggesting rules for opening conferences towards inclusiveness and diversity, and to truly welcome underrepresented minorities. They are based on the experience of the authors in the organization of a global and virtual conference for users and developers of the R software, useR!2021. We aimed at building a high-quality conference in a kind, inclusive, accessible, and welcoming environment for everyone. [Need a ending sentence to connect to the rules.]
+
+\section*{Rule 1: Embrace all dimensions of diversity}
+The first step to be inclusive is to recognize that people are diverse, that some groups face discrimination and might be underrepresented in your community and event. Make efforts to welcome --and even better, celebrate --all dimensions of human diversity, such as age, body ability, career stage, gender, geographic origin, language, neurodiversity, race, religion, sexual orientation, and socioeconomic background, to name a few. Write a diversity statement (e.g. \url{https://user2021.r-project.org/about/diversity_statement/}) and express this welcoming spirit in social media to let people know that they are seen, respected and welcome. That this is their space and their community too. 
+%ast be aware that participants may come from different backgrounds and that freedom of speech can be used to harm others, so don't let one dimension of diversity (i.e., political opinion) prevail over others. See rule 10. 
+
+\section*{Rule 2: Have an inclusive organizing team}
+An inclusive conference can only be organized by an inclusive and diverse organizing team. Invite people from different regions, genders, socioeconomic situations, and other dimensions of diversity. Pay special attention to the usually underrepresented groups. If the organization is not used to working with a diverse group, it may be challenging. But the challenges will help your team grow, learn and have more inclusive practices. If the organizing team is global and remote, you may struggle with time zones, and meet at odd times. You may also have to review carefully the choice of words for emails,
+%ast ¿algo más enfático? [do the effort to] teach yourself the correct choice of words...
+social media publications and your website, to be respectful of every culture and situation;
+%ast yo cortaría esto en dos separadas. 
+team members could be quick to spot text that is not right, or that does not resonate with a particular group of people. An inclusive team will let you know if the organization is failing in any aspect of inclusiveness or accessibility.
+
+
+\section*{Rule 3: Go beyond your limited networks to find the best people for everything}
+
+When inviting people to the organizing team, keynote speakers, program committee, session chairs and others, always look for the best in their subject. If there is not much diversity in your first set of names, it does not mean that minorities are not good enough. It probably means that the system has always privileged some groups of people, and that you need to look further to find great people that are not on the spotlight. [At least in one book I've read a discussion about H-index that we could cite here]. Look beyond your narrow and often limited networks. And if you start by having an inclusive organizing team (rule 1 or 2), they can help find the right people. 
+
+
+\section*{Rule 4: Have registration rates according to the cost of living of participants}
+
+Conferences, even virtual ones, should have a registration fee mainly for two reasons. The first one is that preparing the conference takes a lot of effort and costs money (e.g. commercial registration tools, captioning, or conference venue if in-person) and it should be reflected on a price. The second reason is that people tend to value more the things they pay for, and there is a higher risk of not showing up to a free even [any publication to back this up?]. On the other hand, if you are aiming for inclusiveness and representation, the socioeconomic context of participants should be taken into account when fixing the registration fees. Usually, there is a higher fee for people from the industry than for academia. Consider also a lower fee for non-profit organizations, government employees, or free lancers. 
+% ast: don't forget people in vulnerable job positions, such as post-docs
+You can also use conversion factors for country of residence using data from International Comparison Program report of the World Bank. 
+
+\section*{Rule 5: Do not give scholarships or grants to attend. Give fee waivers or discounts without tedious application forms.}
+
+Offering scholarships or grants to attend your conference may be counterproductive, as they can be seen more of a competition and attract people that might not need the money (e.g. their PI could pay for it), but could apply for it to enrich their CV. If the goal is to help the people in need, make that clear. Do not give it a fancy name. It is a fee waiver or a discount for the people in need. And simplify the process for applicants. People with low resources already have a hard time applying for loans, grants and scholarships in their lives. Do not make life harder on them by asking them to write long paragraphs to convince you that they deserve your support. Many people that cannot afford conferences do not even try to apply for waivers/scholarships because they think it would be hard to get them. Trust that when they say they need it, it is because they do.  
+
+If your resources allow it, you could even take a step forwards and offer financial support: child care support, transportation fees (if in-person) or internet connection services (if virtual). 
+
+\section*{Rule 6: Make the conference accessible to all}
+
+Conferences are usually inaccessible to people with hearing and visual impairments. Take them into account in every stage of the process. Welcome them to your organizing team so that they can be part of the decisions since the beginning, and remind you of inaccessible practices that need to improve. Communicate on social media with alternative text and videos with captions. Use screen-reader friendly platforms for conference registration, abstract submission and, if the conference is virtual or hybrid, look for a screen-reader friendly chat platform too. Provide captioning for presentations. If the conference is in-person, make sure that presenters speak to the microphone to make it easier for captioners or interpreters to listen to them. Provide accessibility guidelines for slides and presentations, and encourage the presenters to follow them. Accessibility means, for example, that the speakers should also provide raw and accessible material to their talks, such as RMarkdown, html or tex files, and that, if they pre-record their presentation, to make sure that their video is shown and their face is visible so that people with hearing impairment can have the possibility to read their lips. You can also give accessibility awards at the end of the conference to acknowledge the speakers who were mindful of inclusiveness when preparing their talks. Please find an example of accessibility guidelines at \url{https://user2021.r-project.org/participation/accessibility/}.
+%ast Bear in mind that most accessibility practices are beneficial to everyone. Captions, for instance, are used by non-native speakers and people that access the conference in loud environments. The prior availability of material benefits people with low bandwidth and non-native speakers as well.
+
+\section*{Rule 7: Put more effort in promoting your conference among groups of people who are usually underrepresented}
+
+If some minorities are under represented in your conference, they may not feel part of the community or may not have the financial resources to attend. Promote the conference in both ways: as welcoming for everyone and supportive for those who do not have the money %ast: or "the credentials" to be there.
+For the former, if part of the community has been historically discriminated, emphasize that they are particularly welcome in this event, and that the organization will make sure to make it a safe and inclusive environment for them. For the latter, advertise the fee waivers, financial support, and the easiness of the process. People who are used to applying and getting rejected for scholarships and waivers may find it relieving that the process will be rather supportive in this case. 
+
+
+\section*{Rule 8: Have an important online component of the conference} 
+
+In-person interaction is priceless; however, it is more expensive for some, even unattainable for others. This is particularly true for global conferences. Global conferences usually take place in high-income countries, making it too expensive and for many people impossible to attend due to immigration requirements. [Share links to news of conference participants denied entry to countries, and maybe some narrating the whole absurd process for visas] Online conferences are more inclusive because there is not need for a visa or a big budget. 
+
+Alternatively, a conference could have an in-person and an online component. This could allow for a group of people to physically interact, while providing many others the opportunity to participate. The challenge in this kind of setting would be to make the online component equally relevant as the in-person component, and not just a consolation price to the less privileged in the community. 
+
+\section*{Rule 9: Don't let English be a barrier for good quality participation}
+
+In international conferences, English is often the official language. Submissions, presentations, tutorials and workshops are in English. While one official language is extremely helpful to communicate and English is the primary language in scientific communication, opening the conference to other languages could make it less intimidating to people who are not so fluent in English. Excluding them may also mean missing great innovative pieces of work, because of a language barrier. So advertise your conference in several languages, and consider having workshops and presentations in other languages (with or without captions in English). 
+
+\section*{Rule 10: Have a code of conduct team}
+
+To maintain and inclusive and safe space in your conference, there should be a code of conduct and a team to enforce it. `The purpose of a code of conduct is to protect members of a community from harm in that community's spaces. The people who need the protection of a code of conduct are usually those with less power or privilege, as more powerful or privileged people are often already protected from most harm.' (coc book)
+
+The code of conduct team should receive training to have a clear understanding on what to enforce and what not to enforce in a code of conduct, how to receive reports, respond to incidents, and communicate the responses. A diverse code of conduct team could be more understanding of intersectionality issues in discrimination and harassment practices. 
+%the code of condcut should be displayed proeminently in several spaces of the conference and it should be effective if it deters people from unaccepted behavior in the first place
+
+
+\section*{Concluding remarks}
+
+The ten rules stated here can be adapted depending on the conference settings. We are aware, from our own experience, that enforcing these rules require a lot of work that is not compensated financially or in promotions. The rewards from this practice can be a healthier, stronger and more inclusive community, empowering people that are historically marginalized, and learning from them, thus increasing the quality of the conference. 
+
+
+\section*{Acknowledgments}
+The authors of this piece would like to thank every single member of the organizing team of useR!2021 for their valuable contribution to an inclusive conference experience. And the R Foundation for their support to the conference. 
+
+% Cras egestas velit mauris, eu mollis turpis pellentesque sit amet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam id pretium nisi. Sed ac quam id nisi malesuada congue. Sed interdum aliquet augue, at pellentesque quam rhoncus vitae.
+
+% \nolinenumbers
+
+% % Either type in your references using
+% % \begin{thebibliography}{}
+% % \bibitem{}
+% % Text
+% % \end{thebibliography}
+% %
+% % or
+% %
+% % Compile your BiBTeX database using our plos2015.bst
+% % style file and paste the contents of your .bbl file
+% % here. See http://journals.plos.org/plosone/s/latex for 
+% % step-by-step instructions.
+% % % 
+% \begin{thebibliography}{10}
+
+% \bibitem{bib1}
+% Conant GC, Wolfe KH.
+% \newblock {{T}urning a hobby into a job: how duplicated genes find new
+%   functions}.
+% \newblock Nat Rev Genet. 2008 Dec;9(12):938--950.
+
+% \bibitem{bib2}
+% Ohno S.
+% \newblock Evolution by gene duplication.
+% \newblock London: George Alien \& Unwin Ltd. Berlin, Heidelberg and New York:
+%   Springer-Verlag.; 1970.
+
+% \bibitem{bib3}
+% Magwire MM, Bayer F, Webster CL, Cao C, Jiggins FM.
+% \newblock {{S}uccessive increases in the resistance of {D}rosophila to viral
+%   infection through a transposon insertion followed by a {D}uplication}.
+% \newblock PLoS Genet. 2011 Oct;7(10):e1002337.
+
+% \end{thebibliography}
+
+
+
+\end{document}
+
