@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: plos_latex_template.aux
+The style file: plos2015.bst
+Database file #1: community-science.bib
+Warning--entry type for "eventbrite_ultimate_2017" isn't style-file defined
+--line 1238 of file community-science.bib
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty pages in dignazioUnicornsJanitorsNinjas2020
+Warning--there's a month but no year in eventbrite_ultimate_2017
+You've used 26 entries,
+            3058 wiz_defined-function locations,
+            846 strings with 11902 characters,
+and the built_in function-call counts, 36726 in all, are:
+= -- 4731
+> -- 264
+< -- 0
++ -- 163
+- -- 66
+* -- 3002
+:= -- 4110
+add.period$ -- 116
+call.type$ -- 26
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 3127
+empty$ -- 3466
+format.name$ -- 81
+if$ -- 8552
+int.to.chr$ -- 0
+int.to.str$ -- 26
+missing$ -- 208
+newline$ -- 150
+num.names$ -- 26
+pop$ -- 320
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 362
+stack$ -- 0
+substring$ -- 6810
+swap$ -- 522
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 216
+width$ -- 28
+write$ -- 321
+(There were 3 warnings)
