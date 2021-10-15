@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.9)  12 OCT 2021 21:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.9)  15 OCT 2021 14:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -373,25 +373,123 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen165
 \SOUL@ulht=\dimen166
 )
-\savedwidth=\skip58
+(/usr/share/texlive/texmf-dist/tex/latex/pdfcomment/pdfcomment.sty
+Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-201
+2, 2015-2016, 2018
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks35
+\XKV@tempa@toks=\toks36
+)
+\XKV@depth=\count281
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@pc@count@i=\count282
+\c@pc@count@ii=\count283
+\c@pc@count@iii=\count284
+\c@pc@count@iv=\count285
+\pc@mathannot@box=\box50
+\pc@nullbox=\box51
+\pc@dima=\skip58
+\pc@dimb=\skip59
+\pc@Sposx=\skip60
+\pc@Sposy=\skip61
+\pc@Eposx=\skip62
+\pc@Eposy=\skip63
+\pc@column=\skip64
+\pc@box@width=\skip65
+\pc@box@height=\skip66
+\pc@box@depth=\skip67
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count286
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datetime2/datetime2.sty
+Package: datetime2 2019/11/11 v1.5.5 (NLCT) date and time formats
+
+(/usr/share/texlive/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2019/11/30 v1.4 (NLCT) Track Languages
+
+(/usr/share/texlive/texmf-dist/tex/generic/tracklang/tracklang.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-savepos.sty
+Package: zref-savepos 2019/11/29 v2.28 Module savepos for zref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2019/11/29 v2.28 Module base for zref (HO)
+Package zref Info: New property list: main on input line 763.
+Package zref Info: New property: default on input line 764.
+Package zref Info: New property: page on input line 765.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+Package zref Info: New property list: savepos on input line 84.
+Package zref Info: New property: posx on input line 85.
+Package zref Info: New property: posy on input line 86.
+)
+\c@zref@unique=\count287
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count288
+\calc@Bcount=\count289
+\calc@Adimen=\dimen167
+\calc@Bdimen=\dimen168
+\calc@Askip=\skip68
+\calc@Bskip=\skip69
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count290
+\calc@Cskip=\skip70
+)
+(/usr/share/texlive/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count291
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/soulpos/soulpos.sty
+Package: soulpos 2012/02/25 v1.1 Fancy underlining
+\ulp@subcnt=\count292
+\ulp@cnt=\count293
+\ulp@out=\write3
+\ulp@in=\read2
+\ulwidth=\dimen169
+)
+
+Package hyperref Warning: Option `pdftex' has already been used,
+(hyperref)                setting the option has no effect on input line 1369.
+
+Package zref Info: New property list: pdfcomment on input line 2735.
+Package zref Info: New property: PCPDFOBJID on input line 2736.
+)
+\savedwidth=\skip71
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen167
-\captionmargin@=\dimen168
-\captionwidth=\dimen169
-\caption@tempdima=\dimen170
-\caption@indent=\dimen171
-\caption@parindent=\dimen172
-\caption@hangindent=\dimen173
+\captionmargin=\dimen170
+\captionmargin@=\dimen171
+\captionwidth=\dimen172
+\caption@tempdima=\dimen173
+\caption@indent=\dimen174
+\caption@parindent=\dimen175
+\caption@hangindent=\dimen176
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count281
-\c@continuedfloat=\count282
+\c@caption@flags=\count294
+\c@continuedfloat=\count295
 Package caption Info: hyperref package is loaded.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
@@ -400,15 +498,15 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip59
-\f@nch@O@elh=\skip60
-\f@nch@O@erh=\skip61
-\f@nch@O@olh=\skip62
-\f@nch@O@orh=\skip63
-\f@nch@O@elf=\skip64
-\f@nch@O@erf=\skip65
-\f@nch@O@olf=\skip66
-\f@nch@O@orf=\skip67
+\f@nch@headwidth=\skip72
+\f@nch@O@elh=\skip73
+\f@nch@O@erh=\skip74
+\f@nch@O@olh=\skip75
+\f@nch@O@orh=\skip76
+\f@nch@O@elf=\skip77
+\f@nch@O@erf=\skip78
+\f@nch@O@olf=\skip79
+\f@nch@O@orf=\skip80
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -424,8 +522,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen174
-\Gin@req@width=\dimen175
+\Gin@req@height=\dimen177
+\Gin@req@width=\dimen178
 )
 (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
 Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
@@ -448,28 +546,28 @@ e
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count283
-\l__pdf_internal_box=\box50
+\l__kernel_color_stack_int=\count296
+\l__pdf_internal_box=\box52
 )
 (./plos_latex_template.aux)
 \openout1 = `plos_latex_template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 178.
-LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 181.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -508,24 +606,24 @@ LaTeX Font Info:    ... okay on input line 178.
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-\AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 178.
-LaTeX Info: Redefining \ref on input line 178.
-LaTeX Info: Redefining \pageref on input line 178.
-LaTeX Info: Redefining \nameref on input line 178.
+\AtBeginShipoutBox=\box53
+Package hyperref Info: Link coloring OFF on input line 181.
+LaTeX Info: Redefining \ref on input line 181.
+LaTeX Info: Redefining \pageref on input line 181.
+LaTeX Info: Redefining \nameref on input line 181.
 
 (./plos_latex_template.out) (./plos_latex_template.out)
-\@outlinefile=\write3
-\openout3 = `plos_latex_template.out'.
+\@outlinefile=\write4
+\openout4 = `plos_latex_template.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 178.
+LaTeX Info: Redefining \microtypecontext on input line 181.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 178.
+LaTeX Info: Redefining \showhyphens on input line 181.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -536,24 +634,24 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count284
-\scratchdimen=\dimen176
-\scratchbox=\box52
-\nofMPsegments=\count285
-\nofMParguments=\count286
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count287
-\MPscratchDim=\dimen177
-\MPnumerator=\count288
-\makeMPintoPDFobject=\count289
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count297
+\scratchdimen=\dimen179
+\scratchbox=\box54
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen180
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks38
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 178.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 189
+(lastpage)             ! on input line 181.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 192
 .
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -561,7 +659,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 189
+LaTeX Font Info:    Trying to load font information for U+msb on input line 192
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -570,7 +668,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 189
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 192
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
@@ -583,42 +681,67 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
+\openout3 = `plos_latex_template.upa'.
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<figs/10_rules_diversity.png, id=77, 854.19125pt x 648.4225pt>
+File: figs/10_rules_diversity.png Graphic file (type png)
+<use figs/10_rules_diversity.png>
+Package pdftex.def Info: figs/10_rules_diversity.png  used on input line 284.
+(pdftex.def)             Requested size: 379.4175pt x 288.01776pt.
+File: figs/10_rules_diversity.png Graphic file (type png)
+<use figs/10_rules_diversity.png>
+Package pdftex.def Info: figs/10_rules_diversity.png  used on input line 284.
+(pdftex.def)             Requested size: 379.4175pt x 288.01776pt.
+File: figs/10_rules_diversity.png Graphic file (type png)
+<use figs/10_rules_diversity.png>
+Package pdftex.def Info: figs/10_rules_diversity.png  used on input line 284.
+(pdftex.def)             Requested size: 379.4175pt x 288.01776pt.
+File: figs/10_rules_diversity.png Graphic file (type png)
+<use figs/10_rules_diversity.png>
+Package pdftex.def Info: figs/10_rules_diversity.png  used on input line 284.
+(pdftex.def)             Requested size: 379.4175pt x 288.01776pt.
+ [2 <./figs/10_rules_diversity.png>]
+[3] [4] [5] [6] [7] [8]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [6] [7] [8] [9]
-(./plos_latex_template.bbl [10]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-11.
+ (./plos_latex_template.bbl
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 5
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
-)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
+ [9] [10])
 
 AED: lastpage setting LastPage
 [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 604.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 604.
- (./plos_latex_template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 604.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 604.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 612.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 612.
+ (./plos_latex_template.aux
+* soulpos - computing points - it may take a few seconds *
+\openout3 = `plos_latex_template.upb'.
+
+
+(./plos_latex_template.upa))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 612.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 612.
 Package rerunfilecheck Info: File `plos_latex_template.out' has not changed.
 (rerunfilecheck)             Checksum: 600789B124893AEC2AB3A990CF353EAF;827.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 604.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 612.
  ) 
 Here is how much of TeX's memory you used:
- 11333 strings out of 483183
- 173794 string characters out of 5966293
- 489471 words of memory out of 5000000
- 26039 multiletter control sequences out of 15000+600000
- 538318 words of font info for 63 fonts, out of 8000000 for 9000
+ 15949 strings out of 483183
+ 277208 string characters out of 5966293
+ 595693 words of memory out of 5000000
+ 30580 multiletter control sequences out of 15000+600000
+ 538829 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,11n,45p,1919b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,11n,96p,984b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/rjoo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600p
 k> </home/rjoo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600p
 k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -628,12 +751,13 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/m
-arvosym/marvosym.pfb>
-Output written on plos_latex_template.pdf (11 pages, 150164 bytes).
+blic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosy
+m/marvosym.pfb>
+Output written on plos_latex_template.pdf (11 pages, 201944 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 6737 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 283 PDF objects out of 1000 (max. 8388607)
+ 248 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 8790 words of extra memory for PDF output out of 10000 (max. 10000000)
 

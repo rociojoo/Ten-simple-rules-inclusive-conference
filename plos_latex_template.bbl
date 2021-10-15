@@ -1,5 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{hendersonThoughtfulGatheringsGendering2020}
+Henderson EF, Burford J.
+\newblock Thoughtful Gatherings: Gendering Conferences as Spaces of Learning,
+  Knowledge Production and Community.
+\newblock Gender and Education. 2020;32(1):1--10.
+\newblock doi:{10.1080/09540253.2019.1691718}.
+
 \bibitem{biggsAcademicConferenceChilly2018}
 Biggs J, Hawley PH, Biernat M.
 \newblock The {{Academic Conference}} as a {{Chilly Climate}} for {{Women}}:
@@ -7,6 +14,68 @@ Biggs J, Hawley PH, Biernat M.
   {{Coping Responses}}, and {{Career Intentions}}.
 \newblock Sex Roles. 2018;78(5):394--408.
 \newblock doi:{10.1007/s11199-017-0800-9}.
+
+\bibitem{arendDisparityConferenceRegistration2019}
+Arend ME, Bruijns SR.
+\newblock Disparity in Conference Registration Cost for Delegates from Low- and
+  Middle-Income Backgrounds.
+\newblock African Journal of Emergency Medicine. 2019;9(3):156--161.
+\newblock doi:{10.1016/j.afjem.2019.01.016}.
+
+\bibitem{depickerRethinkingInclusionDisability2020a}
+De~Picker M.
+\newblock Rethinking Inclusion and Disability Activism at Academic Conferences:
+  Strategies Proposed by a {{PhD}} Student with a Physical Disability.
+\newblock Disability \& Society. 2020;35(1):163--167.
+\newblock doi:{10.1080/09687599.2019.1619234}.
+
+\bibitem{irishIncreasingParticipationUsing2020}
+Irish JEN.
+\newblock Increasing Participation: Using the Principles of Universal Design to
+  Create Accessible Conferences.
+\newblock Journal of Convention \& Event Tourism. 2020;21(4):308--330.
+\newblock doi:{10.1080/15470148.2020.1814469}.
+
+\bibitem{gichoraTenSimpleRules2010a}
+Gichora NN, Fatumo SA, Ngara MV, Chelbat N, Ramdayal K, Opap KB, et~al.
+\newblock Ten {{Simple Rules}} for {{Organizing}} a {{Virtual
+  Conference}}\textemdash{{Anywhere}}.
+\newblock PLOS Computational Biology. 2010;6(2):e1000650.
+\newblock doi:{10.1371/journal.pcbi.1000650}.
+
+\bibitem{levitisCenteringInclusivityDesign2021}
+Levitis E, {van Praag} CDG, Gau R, Heunis S, DuPre E, Kiar G, et~al.
+\newblock Centering Inclusivity in the Design of Online
+  Conferences\textemdash{{An OHBM}}\textendash{{Open Science}} Perspective.
+\newblock GigaScience. 2021;10(8).
+\newblock doi:{10.1093/gigascience/giab051}.
+
+\bibitem{atkinsonJournalMedicine20202021}
+Atkinson EJ, Higgins PD, Esserman D, Kane MJ, Schwager SJ, Rickert JB, et~al.
+\newblock The {{R Journal}}: R {{Medicine}} 2020: The {{Power}} of {{Going
+  Virtual}}.
+\newblock \{The R Journal\}. 2021;13(1):642--647.
+\newblock doi:{10.32614/rmed2020}.
+
+\bibitem{foramittiVirtuesVirtualConferences2021}
+Foramitti J, Drews S, Klein F, Konc T.
+\newblock The Virtues of Virtual Conferences.
+\newblock Journal of Cleaner Production. 2021;294:126287.
+\newblock doi:{10.1016/j.jclepro.2021.126287}.
+
+\bibitem{ninerBetterWhomLeveling2021}
+Niner HJ, Wassermann SN.
+\newblock Better for {{Whom}}? Leveling the {{Injustices}} of {{International
+  Conferences}} by {{Moving Online}}.
+\newblock Frontiers in Marine Science. 2021;0.
+\newblock doi:{10.3389/fmars.2021.638025}.
+
+\bibitem{rabyMovingAcademicConferences2021}
+Raby CL, Madden JR.
+\newblock Moving Academic Conferences Online: Aids and Barriers to Delegate
+  Participation.
+\newblock Ecology and Evolution. 2021;11(8):3646--3655.
+\newblock doi:{10.1002/ece3.7376}.
 
 \bibitem{r_core_team_2021}
 {R Core Team}. R: A Language and Environment for Statistical Computing; 2021.
@@ -32,6 +101,12 @@ Aurora V, Gardiner M.
 \newblock {Frame Shift Consulting LLC}; 2019.
 \newblock Available from:
   \url{https://frameshiftconsulting.com/resources/code-of-conduct-book/}.
+
+\bibitem{costanzachockDesign2020}
+{Costanza-Chock} S.
+\newblock Design Justice: Community-Led Practices to Build the Worlds We Need.
+\newblock Braman S, editor. Information {{Policy}}. {Cambridge, MA, USA}: {MIT
+  Press}; 2020.
 
 \bibitem{hongGroupsDiverseProblem2004}
 Hong L, Page SE.
@@ -72,18 +147,12 @@ Cheng E.
 \newblock X+ Y: A Mathematician's Manifesto for Rethinking Gender.
 \newblock Basic Books; 2020.
 
-\bibitem{acionWhyChooseCommunity2020}
-Acion L. Why Do {{I}} Choose a Community Developer Role over a Software
-  Developer Role in the {{R}} Community?; 2020.
-\newblock Available from:
-  \url{http://lacion.rbind.io/post/why-community-work/}.
-
-\bibitem{arendDisparityConferenceRegistration2019}
-Arend ME, Bruijns SR.
-\newblock Disparity in Conference Registration Cost for Delegates from Low- and
-  Middle-Income Backgrounds.
-\newblock African Journal of Emergency Medicine. 2019;9(3):156--161.
-\newblock doi:{10.1016/j.afjem.2019.01.016}.
+\bibitem{burfordHomelinessMeantHaving2020}
+Burford J, Bosanquet A, Smith J.
+\newblock `{{Homeliness}} Meant Having the Fucking Vacuum Cleaner out': The
+  Gendered Labour of Maintaining Conference Communities.
+\newblock Gender and Education. 2020;32(1):86--100.
+\newblock doi:{10.1080/09540253.2019.1680809}.
 
 \bibitem{gewinWhatScientistsShould2019}
 Gewin V.
@@ -104,25 +173,11 @@ Saliba M.
 \newblock Nature Energy. 2020;5(7):488--490.
 \newblock doi:{10.1038/s41560-020-0656-z}.
 
-\bibitem{atkinsonJournalMedicine20202021}
-Atkinson EJ, Higgins PD, Esserman D, Kane MJ, Schwager SJ, Rickert JB, et~al.
-\newblock The {{R Journal}}: R {{Medicine}} 2020: The {{Power}} of {{Going
-  Virtual}}.
-\newblock \{The R Journal\}. 2021;13(1):642--647.
-\newblock doi:{10.32614/rmed2020}.
-
 \bibitem{roosOnlineConferencesNew2020}
 Roos G, Ol{\'a}h J, Ingle R, Kobayashi R, Feldt M.
 \newblock Online Conferences \textendash{} {{Towards}} a New (Virtual) Reality.
 \newblock Computational and Theoretical Chemistry. 2020;1189:112975.
 \newblock doi:{10.1016/j.comptc.2020.112975}.
-
-\bibitem{ninerBetterWhomLeveling2021}
-Niner HJ, Wassermann SN.
-\newblock Better for {{Whom}}? Leveling the {{Injustices}} of {{International
-  Conferences}} by {{Moving Online}}.
-\newblock Frontiers in Marine Science. 2021;0.
-\newblock doi:{10.3389/fmars.2021.638025}.
 
 \bibitem{trianaDoesOrderFacetoFace2012}
 Triana MdC, Kirkman BL, Wagstaff MF.
@@ -132,6 +187,13 @@ Triana MdC, Kirkman BL, Wagstaff MF.
   Inclusion}} and {{Participation}}.
 \newblock Journal of Business and Psychology. 2012;27(1):57--70.
 
+\bibitem{blackEngenderingBelongingThoughtful2020}
+Black AL, Crimmins G, Dwyer R, Lister V.
+\newblock Engendering Belonging: Thoughtful Gatherings with/in Online and
+  Virtual Spaces.
+\newblock Gender and Education. 2020;32(1):115--129.
+\newblock doi:{10.1080/09540253.2019.1680808}.
+
 \bibitem{priceAccessImaginedConstruction2009}
 Price M.
 \newblock Access {{Imagined}}: The {{Construction}} of {{Disability}} in
@@ -139,12 +201,16 @@ Price M.
 \newblock Disability Studies Quarterly. 2009;29(1).
 \newblock doi:{10.18061/dsq.v29i1.174}.
 
-\bibitem{irishIncreasingParticipationUsing2020}
-Irish JEN.
-\newblock Increasing Participation: Using the Principles of Universal Design to
-  Create Accessible Conferences.
-\newblock Journal of Convention \& Event Tourism. 2020;21(4):308--330.
-\newblock doi:{10.1080/15470148.2020.1814469}.
+\bibitem{marks2021meeting}
+Marks GS, Solomon C, Whitney KS.
+\newblock Meeting frameworks must be even more inclusive.
+\newblock Nature Ecology \& Evolution. 2021;5(5):552--552.
+
+\bibitem{hallDesigningDiversityInclusion2019}
+Hall B. Designing a Diversity and Inclusion ({{D}}\&{{I}}) Communications
+  Strategy; 2019.
+\newblock Available from:
+  \url{https://www.interactsoftware.com/blog/diversity-inclusion-communications-strategy/}.
 
 \bibitem{sarabipourChangingScientificMeetings2021}
 Sarabipour S, Khan A, Seah YFS, Mwakilili AD, Mumoki FN, S{\'a}ez PJ, et~al.
