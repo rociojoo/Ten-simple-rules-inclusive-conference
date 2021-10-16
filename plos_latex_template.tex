@@ -101,7 +101,7 @@
 \DisableLigatures[f]{encoding = *, family = * }
 
 % color can be used to apply background shading to table cells only
-\usepackage[table]{xcolor}
+\usepackage[table,dvipsnames]{xcolor}
 
 % array package and thick rules for tables
 \usepackage{array}
@@ -179,6 +179,13 @@
 
 
 \begin{document}
+
+\newcommand{\fede}[1]{\textcolor{ForestGreen}{Fede: #1}}
+\newcommand{\rocio}[1]{\textcolor{MidnightBlue}{Rocio: #1}}
+\newcommand{\doro}[1]{\textcolor{RedViolet}{Dorothea: #1}}
+\newcommand{\jani}[1]{\textcolor{YellowOrange}{Janina: #1}}
+\newcommand{\nextcoauthor}[1]{\textcolor{RawSienna}{helloauthors: #1}}
+
 \vspace*{0.2in}
 
 % Title must be 250 characters or less.
@@ -236,8 +243,8 @@ with the Lorem Ipsum Consortium\textsuperscript{\textpilcrow}
 % Please keep the abstract below 300 words
 \section*{Abstract (optional from what I've seen)}
 
-The authors of this article participated in the organization team of the annual user conference of the R Project for Statistical Computing, held in July 2021. useR! conferences are non-profit events organized by volunteers from the R community and arranged by the R Foundation. The conference attracts a broad range of participants from academia, industry, government, and the non-profit sector. For 2021, we aimed to build a high-quality virtual and explicitly global conference in a kind, inclusive, accessible, and welcoming environment for everyone. 
-In this article, we streamline our most important learnings in 10 simple rules to host an inclusive conference. These rules apply equally to academic, industry, or mixed conferences; the rules are inspired by a global experience but also apply at the regional or local level.
+The authors of this article participated in the organization of the annual user conference of the R Project for Statistical Computing, held in July 2021. useR! conferences are non-profit events organized by volunteers from the R community and arranged by the R Foundation. The conference attracts a broad range of participants from academia, industry, government, and the non-profit sector. For 2021, we aimed to build a high-quality virtual and explicitly global conference in a kind, inclusive, accessible, and welcoming environment for everyone. 
+In this article, we streamline our most important learnings in 10 simple rules to host an inclusive conference. These rules apply equally to academic, industry, or mixed conferences; the rules are inspired by a global experience but also apply at the regional or local level.\fede{A comment from Fede} \rocio{an ideal reply to that from Rocio} \doro{Doro chiming in, before the comment is resolved}
 
 %andrea: matt's original sentence: reaching users and developers of the R language from more than 120 countries. 
 
@@ -250,21 +257,21 @@ In this article, we streamline our most important learnings in 10 simple rules t
 \section*{Introduction}
 
 % Rocío: Main message of the paragraph: Why we are writing this piece
-Conferences, from the Latin \textit{conferre} or `to bring together', are spaces to meet and reconnect with members from a specific community, learn about advances in the field, and share our recent contributions. 
+Conferences, from the Latin \textit{conferre} \doro{remove or, replace with -} or `to bring together', are spaces to meet and reconnect with members from a specific community, learn about advances in the field, and share our recent contributions. 
 However, conferences are likely to reproduce the systematic discrimination occurring in other spaces in our fields. 
-Lack of representation and unwelcoming--or overtly aggressive--environments exclude people from the opportunities for learning, producing knowledge, and becoming active community members that conferences can provide to the non-marginalized \cite{hendersonThoughtfulGatheringsGendering2020}.
-Exclusionary conference experiences can even divert career paths, affect lives, and drive people out of academia \cite{biggsAcademicConferenceChilly2018, hendersonThoughtfulGatheringsGendering2020}. 
+Lack of representation and unwelcoming--or overtly aggressive--environments exclude people from the opportunities for learning, \doro{add "sharing and"} producing knowledge, and becoming active community members that conferences can provide to the non-marginalized \cite{hendersonThoughtfulGatheringsGendering2020}.
+Exclusionary conference experiences can \doro{Suggestion: remove "even"} even divert career paths, affect lives, and drive people out of academia \cite{biggsAcademicConferenceChilly2018, hendersonThoughtfulGatheringsGendering2020}. 
 This message is not new. 
 Barriers such as unattainable registration costs, sexism, and ableism, among others, have already been exposed and discussed in the literature \cite{arendDisparityConferenceRegistration2019, biggsAcademicConferenceChilly2018, depickerRethinkingInclusionDisability2020a, irishIncreasingParticipationUsing2020}, 
-and some proposals for more inclusive conferences have been put into practice \cite{gichoraTenSimpleRules2010a, levitisCenteringInclusivityDesign2021, atkinsonJournalMedicine20202021, foramittiVirtuesVirtualConferences2021, ninerBetterWhomLeveling2021, rabyMovingAcademicConferences2021}, with a primary focus an the online format to open doors for inclusion. 
+and some proposals for more inclusive conferences have been put into practice \cite{gichoraTenSimpleRules2010a, levitisCenteringInclusivityDesign2021, atkinsonJournalMedicine20202021, foramittiVirtuesVirtualConferences2021, ninerBetterWhomLeveling2021, rabyMovingAcademicConferences2021}, with a primary focus on the online format to open doors for inclusion. 
 
 
 % Rocío: Main message of the paragraph: Roadmap of the paper
-This article puts the focus on practices for inclusive conferences, whether they are virtual or in-person, though we advocate for an online component. 
+This article puts the focus on practices for inclusive conferences, whether they are virtual or in-person, though we advocate for an online component. \doro{stronger: "to have a strong online component for all conferences"}
 The rules written here are directed to people who are part of a stable meetings committee that oversees the site/location selection process, or that coordinates with the local organizers of conferences.
 The rules can also be helpful to local/virtual organizers who desire to make an inclusive conference starting at the planning stage.
 These tips stem from the authors' experience of organizing useR! 2021, a virtual and global statistical computing conference for users and developers of the R programming language \cite{r_core_team_2021}. 
-We embraced the challenge of organizing a high-quality virtual conference in the context of the COVID-19 pandemic and making it a kind, inclusive, and accessible experience for everyone. 
+We embraced the challenge of organizing a high-quality virtual conference in the context of the COVID-19 pandemic and making it a kind, inclusive, and accessible experience for everyone \doro{is everyone too bold? everyone is never happy. "many"?}. 
 Here, we share the lessons learned within the past year of organizing useR! 2021, summarized as ten simple rules towards an inclusive conference.
 The rules are organized in three groups (Figure \ref{fig:diagram}). %original source: https://docs.google.com/drawings/d/1iS1pLc9OldLMe_jhNT6OGIbT9s5KvlHpUoDd19vHkCY/edit?usp=sharing
 %sara: still need to better format figure size and get the alt text right :P
@@ -286,7 +293,7 @@ Diagram of how the 10 rules are organized into three groups: grounding rules (ru
 \label{fig:diagram}
 \end{figure}
 
-
+% Dorothea: I like the intro as it is now, and I don't think the following paragraph is necessary.
 % Rocío: I'm leaving this out now and seeing if we don't need this description of communities
 %% Rocío: Main message of the paragraph: We do this for communities and people. What do we mean by communities and why are they important? (Why are they important may need some text)
 %This article suggests rules to pivot traditional conferences towards diversity and inclusion, and strive to build more inclusive and welcoming communities. 
@@ -312,6 +319,7 @@ Investing more effort in the most excluded groups does not mean neglecting the o
 Will a more diverse conference translate into an even gender distribution in your speakers? 
 Would it be the presence of racialized people --especially Black people-- among the head organizers, speakers, and attendees? 
 Would it be having LGBTQIA+ friendly-spaces or community participation from key geographic regions?
+\doro{I would leave out the following sentence. It doesn't add a new thought and only partially repeats the sentence before. The questions are a stronger argument. Or we could write: "The answer to these questions depend on your field, region or community."}
 Depending on the field, region, or community, it could be Black people, LGBTQIA+, Muslim, or other people.
 Intersectionality, or the complex, cumulative way in which the effects of multiple forms of discrimination combine or intersect, should be taken into account. 
 % This exercise will also help coming up with indicators that would help the organizing team assess the fulfillment of the diversity objectives along the way. 
@@ -321,7 +329,7 @@ Intersectionality, or the complex, cumulative way in which the effects of multip
 %batool: please note that I didn't read both entire papers I mentioned above.
 %sara: reference for privilege: McIntosh, Peggy. "White privilege: Unpacking the invisible knapsack." (1988).
 % Rocío: I feel like we don't need to cite any reference about privilege the way it is now. But feel free to disagree.
-
+%Dorothea: I agree with Rocío. citations for priviledge feel like citation for gravity...the current wording is not saying "there is priviledge, as shown by xyz. it says there is priviledge and we need to see where it is particularly strong in our field.
 
 
 \section{Create a safe and welcoming environment}
@@ -334,6 +342,7 @@ Importantly, you can take active steps in creating a more welcoming environment 
 
 % Rocío: main idea: Code of conduct for a safe place
 Adopting a code of conduct and creating a team to enforce it are key aspects in creating a safe environment during a conference \cite{favaroYourScienceConference2016}.
+%Dorothea: it is not a document, right? The document will not keep the community safe. Maybe say "a set of rules" in case someone doesn't know what a code of conduct is?
 The code of conduct is a document meant to keep the community safe and should state clearly the unacceptable behaviors, the consequences for engaging in such behavior, and the way to report violations \cite{auroraHowRespondCode2019}. 
 The code of conduct team should receive training on how to receive reports, respond to incidents, and communicate their responses, and organize accordingly. 
 A diverse code of conduct team will be more understanding of power dynamics and sensitive to discrimination and harassment issues. 
@@ -348,7 +357,7 @@ We strongly recommend reading `How to Respond to Code of Conduct Reports' \cite{
 
 % Rocío: Idea of this paragraph: build a diverse team
 A genuinely inclusive conference can only be organized by an inclusive and diverse organizing team.
-Build a team with people from different regions, genders, races and ethnicity, socioeconomic statuses, and other aspects of diversity. 
+Build a team with people from different regions, genders, races and ethnicities, socioeconomic statuses, and other aspects of diversity. 
 Go beyond balancing all genders in this effort and pay special attention to other marginalized groups (see \textbf{Rule \ref{rule_diversity}}). 
 To ensure a deep understanding and smooth communication with different diverse groups, it is essential to create a representative working group that functions as a snapshot of the community at large. 
 If you already have an organizing team, check for gaps in its composition. 
@@ -376,6 +385,7 @@ You can, for example, break the expectations about leadership as a lonely task a
 % Rocío: Idea of this paragraph: take care of your team.
 Most importantly, take care of your team. 
 Having a diverse team and executing inclusive and accessible practices throughout the organizing period--it might be a year or two--may require a lot of effort. 
+%Dorothea: I would remove the following sentence, I think we have made the point that it is worthwhile
 The effort is worth it because it strengthens the event and the community making it truly welcoming for everyone. 
 However, having a strong community as the only reward may be enough for those who are in more privileged positions. 
 Some people and often the minoritized ones do not have institutional support to put time and effort into the organization tasks and do not have the luxury to commit to the organization for free; consider paying them as an item in your budget.  
@@ -400,14 +410,15 @@ Many of our biased lists are products of the existing systems that have always p
 Rather than deter us, this implicit and systemic bias should encourage us to look further to find great people that are not routinely in the spotlight. 
 Ensuring diversity in each of these roles needs to be a deliberate process. 
 We need to go beyond our narrow and often limited networks to look for, reach out to, invite, encourage, and onboard these people until there is ample representation across the diversity spectrum and dimensions. 
+\doro{The last sentence sounds odd. Maybe just: "until there is ample representation."}
 Make sure that every selection committee--the committee looking for keynote speakers, the selection committee for abstracts, the prizes and award committees--are also diverse \cite{swartzScienceValueDiversity2019, wongBuildDiversityScience2020}, and ask them to be aware that everyone has implicit biases, to recognize them, and try to counteract them. 
 An inclusive and diverse organizing team (\textbf{Rule \ref{rule_organizing_team}}) is already a great starting point to overcome this bias in other roles. The regional and local communities in your field are also good sources to tap into. 
 
 % Rocío: main idea: unbias roles and give spotlight to the roles--and people who have contributed in roles--that are not stereotypically categorized as success
-In academia and the industry, not only does the list of people considered in spotlight roles is usually biased, but the spotlight roles themselves are.
+In academia and the industry, not only is the list of people considered in spotlight roles usually biased, but the spotlight roles themselves are.
 Scientific publication and development of software, are often regarded with higher value than community building or teaching, which may be equally if not more challenging, less rewarded, and usually tackled by women, people of color, people with disabilities and from other minoritized groups \cite{cheng2020x+, burfordHomelinessMeantHaving2020}.
 Defy the stereotypical criteria for success by acknowledging these community practices and the people behind them.
-You can, for instance, give more space in your conference to talks about community building as an area of knowledge production, and reframe the awards ceremony to acknowledge those who prepared accessible slides and presentations (see Rule \ref{rule_accessibility}), for being mindful of inclusiveness. 
+You can, for instance, give more space in your conference to talks about community building as an area of knowledge production, and reframe \doro{amend?} the awards ceremony to acknowledge those who prepared accessible slides and presentations (see Rule \ref{rule_accessibility}), for being mindful of inclusiveness. \doro{Suggestion: "amend the awards ceremony to also acknowledge those who prepared accessible slides and presentations, contributed to community building or presented teaching materials"}
 Finally, do not restrict people from marginalized groups or community-builders to talk or work only on issues related to diversity and inclusion; recognize their areas of expertise and interest. 
 
 \section{Have a strong online component of the conference} 
@@ -444,12 +455,12 @@ Some ideas in this line are: offering the option of written chat only, instead o
 
 
 Conferences are among the least accessible spaces that people with disabilities may encounter \cite{priceAccessImaginedConstruction2009}. Even when conferences implement other inclusive practices, the participation of people with disabilities is often overlooked \cite{marks2021meeting}. This is one key aspect where having someone in the organizing team allows them to take part in the decisions from the beginning (see \textbf{Rule \ref{rule_organizing_team}}), as thinking about disability or simulating it are not substitutes for real-life experience \cite{costanzachockDesign2020}. Planning for accessibility requires time and early decision-making \cite{irishIncreasingParticipationUsing2020} and should not be dealt with at the last minute. Key decisions in this respect are hard to correct, e.g., when finding out too late that a venue is inaccessible for people who use wheelchairs. 
-
+\doro{repetition with the next sentence}
 For in-person conferences, the venue should comply with common accessibility standards, such as being adequate for people who use wheelchairs, have signs in Braille, and a sound system compatible with hearing devices and live interpretation, just to name a few important features. In addition to this, the organizers should take care proactively of invisible disabilities, for example, by providing quiet spaces for privacy and noise-free conversations, provide chairs in open spaces, and menus that include sugar-free, gluten-free options.
 
 Regardless of the conference format, all platforms (website, chat, conference administration tools) and images used for the communication strategy of the conference should be screen-reader friendly and keyboard accessible, and have alternative text. Any videos should have captions and a transcript. The organizing team should provide accessibility guidelines for slides and presentations, encourage their use, and be available for any questions presenters and attendees may have. Slide decks should be made available beforehand, either in webpages or available for download to ensure that everybody can follow their content during the presentations. 
 
-Accessibility practices must include social events and networking, and include activities that do not restrict participation based on body type or ability. Importantly, all these accessibility practices are inclusive not only for people with disabilities but to a broader spectrum of people. For instance, captions are helpful for non-native speakers, having the material available for download helps attendeed with low bandwidth connection, etc. Accessibility efforts should be explicitly displayed in the official communications of the conference (see \textbf{Rule \ref{rule_communication}}). 
+Accessibility practices must include social events and networking, and include activities that do not restrict participation based on body type or ability. Importantly, all these accessibility practices are inclusive not only for people with disabilities but to a broader spectrum of people. For instance, captions are helpful for non-native speakers, having the material available for download helps attendees with low bandwidth connection, etc. Accessibility efforts should be explicitly displayed in the official communications of the conference (see \textbf{Rule \ref{rule_communication}}). 
 
 
 
@@ -468,6 +479,8 @@ and conferences may miss potentially innovative contributions.
 Providing a welcoming and diverse environment by encouraging the full participation of non-native English speakers is critical (Rule 2). 
 Advertising the conference in several languages and considering having non-English workshops and presentations to help overcome this barrier. 
 Allow the audience to ask questions in their native language and invite others to help translate it; conversely, if the presenter is not comfortable with questions in English, encourage people in the audience to help by rephrasing their questions or try to translate them; after all, the community should be supportive. 
+
+% Rocío: we could eventually cite https://conferenceinference.wordpress.com/2020/11/30/when-language-is-not-a-barrier-a-tale-fr[…]istically-inclusive-conference-toma-pustelnikovaite/
 
 % Not citing ninerBetterWhomLeveling2021 anymore for now.
 
@@ -506,11 +519,13 @@ Do not expect minoritized people to teach you--it's not their role--and accept f
 % Rocío: main idea: Budgets are limited and need to choose priorities.
 Conference budgets are limited and rely mostly on sponsorship and attendance fees. 
 While some expenses might be more or less fixed, % Rocío: can we give examples?
+% Dorothea: this depends so much on the conference type. I wanted to write "venue"but this is not true of course, so I don't know what to add. 
 allocation of resources has to be intentional to support the goals of the conference towards inclusion. 
 It is important to estimate the costs for these inclusive practices and define your priorities in advance, like paying the organizing team, necessary training (e.g. code of conduct), and accessibility practices (e.g. captions). 
 Aditional support for attendees should also be considered in the budget: child care support, transportation fees, visa-related support (if in-person), internet connection services (for the virtual component). 
 Consider that an online conference might reduce organization costs (e.g. no rental costs for a physical venue), allowing to redirect the money towards other inclusive priorities. 
 Instead of depending on registration fees, ask sponsors to support specific items in your inclusion expenses.
+%Dorothea: I slightly disagree with that one. Maybe just leave the first part out?
 
 % Rocío: main idea: help take the burden out of participants for more inclusive participation
 Registration costs are one of the largest barriers for conference attendance, and, if we are aiming for inclusiveness and representation, the socioeconomic context of participants, their country of origin, and their career status should be taken into account when determining the registration rates \cite{sarabipourChangingScientificMeetings2021, andalibPostdocQueueLabour2018, kaplanPostdocNot2012}.
@@ -523,7 +538,7 @@ These programs are important for in-person participation, which is more expensiv
 For online conferences, granting fee waivers or support for hidden costs like internet connection is easier and cheaper. 
 Lower costs for attendance and offering financial support instead of prestigious grants--that could look good in a CV--may reduce the number of people applying for them and allow you to help all applicants. 
 Applying for loans, grants, and scholarships might be an emotionally demanding task, so if this scenario is likely, simplify the process of asking for financial support. 
-
+%Dorothea: I understand what we want to say, but there is a slight contradiction between "reduce the prestige so that less people apply and we can help everyone and reduce the barriers so that more people apply"
 
 % Rocío: Let's keep this in mind for the 10th rule or conclusion
 % While some of these items are being implemented recently, others can encounter a certain degree of resistance, such as paying the organizing team. Don't be afraid to innovate and resist the institutional inertia. "We have never payed for this, and this has always been like that" will not take the conference towards structural change.
