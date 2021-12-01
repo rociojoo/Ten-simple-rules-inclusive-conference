@@ -112,6 +112,9 @@
 %sara: for commenting the pdf to add alt text (if anyone knows a better solution for atl text please help)
 \usepackage{pdfcomment}
 
+%Janani: for inserting sparingly few super relevant emojis
+\usepackage{emoji} %Rocio: https://www.overleaf.com/learn/latex/Questions/Inserting_emojis_in_LaTeX_documents_on_Overleaf#Emoji_characters_and_the_Overleaf_editor
+
 % create "+" rule type for thick vertical lines
 \newcolumntype{+}{!{\vrule width 2pt}}
 
@@ -288,8 +291,8 @@ Yanina Bellini Saibene\textsuperscript{20}%,3\textcurrency}
 % Please keep the abstract below 300 words
 \section*{Abstract (optional from what I've seen)}
 
-The authors of this article recently organized useR! 2021, the annual conference of the R Project for Statistical Computing. useR! conferences are non-profit events organized by volunteers from the R community and managed by the R Foundation. The conference attracts a broad range of participants from academia, industry, government, and the non-profit sector. For 2021, we aimed to build a high-quality virtual and explicitly global conference creating a kind, inclusive, accessible, and welcoming environment for everyone. 
-In this article, we outline our most important lessons learned in 10 simple rules to host an inclusive conference. These rules apply equally to academic, industry, or mixed conferences; while inspired by a global experience, these rules also apply to regional events. These rules were implemented carefully and intentionally during a virtual conference, but are designed to serve as useful guidelines for in-person and hybrid events even after the covid pandemic. 
+The authors of this article recently organized useR! 2021, the annual global R conference, attracting a broad range of participants from academia, industry, government, and the non-profit sector. To embrace the constraints posed by the pandemic, this year we hosted a 100\% virtual conference. We worked on building a high-quality virtual and explicitly global conference by creating a kind, inclusive, accessible, and welcoming environment for everyone. 
+This article outlines our most important lessons learned abstracted as '10 simple rules to host an inclusive conference'. These rules apply equally to academic, industry, or mixed conferences; while inspired by a global experience, these rules seamlessly translate to regional events. These rules were implemented carefully and intentionally during a virtual conference, but are designed to serve as useful guidelines for in-person and hybrid events even after the COVID pandemic. 
 
 % % Please keep the Author Summary between 150 and 200 words
 
@@ -306,7 +309,7 @@ Many academic and tech conferences have become exclusive spaces for privileged g
 
 This article proposes 10 simple rules to host inclusive conferences.
 They are organized in three sections: \textbf{the pillars}, fundamental rules with key elements to conceive the work on diversity and inclusion in any conference (embracing diversity, creating a welcoming environment, and having a diverse organizing team); \textbf{design rules}, concerning diverse elements in the design of the conference and operational tasks (counteracting bias in the conference program, embracing a strong online component, achieving accessibility for people with disabilities, embracing language diversity, enforcing inclusive communication strategies, and allocating financial resources to support inclusive practices); and a \textbf{process rule} to make the conference part of a long-term commitment to inclusion. 
-These practices stem from the experience of organizing useR! 2021, a virtual and global statistical computing conference for users and developers of the R programming language \cite{r_core_team_2021}. 
+These practices stem from the experience of organizing useR! 2021, a virtual and global statistical computing conference for users and developers of the R programming language \cite{r_core_team_2021}. useR! conferences are non-profit events organized by volunteers from the R community and managed by the R Foundation.
 We embraced the challenge of organizing a high-quality virtual conference in the context of the COVID-19 pandemic and making it a kind, inclusive, and accessible experience for as many persons as possible.
 
 The authors of this article include the global coordinators of the conference, members of the diversity and inclusion team, and people who contributed to other areas of the conference. 
@@ -367,17 +370,19 @@ Inclusion should start from the organizing team. \textbf{Rule 3} highlights the 
 % Rocío: Main idea: what is diversity and why does it matter? (inequalities)
 Diversity encompasses multiple dimensions: age, physical ability, career stage, gender, gender identity, geographic origin, language, neurodiversity, race, religion, sexual orientation, and socioeconomic background, to name a few.
 Human diversity should be celebrated and respected in every way. 
-Nonetheless, we live in a world with implicit hierarchies along these axes. 
-Some statuses (\textit{e.g.}, cisgender, white, male, from North America or Western Europe) hold the privilege of being the defaults around which all systems--including conferences--are consciously and unconsciously built. 
-People outside the dominant groups suffer different forms of oppression, like sexism, racism, ableism, homophobia, and transphobia; some people have to deal with several of these on a daily basis.
+Unfortunately, we live in a world with implicit hierarchies along these axes. 
+Some statuses (\textit{e.g.}, cisgender, white, male, from North America or Western Europe) hold the privilege of being the defaults around which all systems -- including conferences -- are consciously and unconsciously built. 
+People outside the dominant groups suffer different forms of oppression, like sexism, racism, ableism, homophobia, and transphobia; a few of them have to deal with several of these on a daily basis.
 % While no isolated initiative can drastically alter conference outcomes, building a more diverse and inclusive conference starts by recognizing that these inequalities have systematically excluded whole groups of people from academia and scientific and professional circles. 
-Recognizing this systematic exclusion, particularly in our fields and in our scientific or professional communities, will help identify the most marginalized and discriminated subgroups \cite{timperleyHeMoanaPukepuke2020}.
+Therefore, recognizing this systematic exclusion, particularly in our fields and in our scientific or professional communities, is paramount to inclusion, and will help identify the most marginalized and discriminated subgroups \cite{timperleyHeMoanaPukepuke2020}.
 % These are the groups that warrant deliberate efforts that ensure fair inclusion.
-As a starting point, identify which groups warrant deliberate efforts to ensure fair inclusion, and determine the contributing factors (e.g. explicit discrimination, participation fees, etc.).
+
+\emoji{bulb} \textbf{Practical tips:} As a starting point, the meeting organizers could identify which groups warrant deliberate efforts to ensure fair inclusion, and determine the contributing factors (\textit{e.g.}, explicit discrimination, participation fees, etc.).
 This analysis should guide the vision of diversity and inclusion for your conference and help design strategies to achieve it. 
 Express this vision for your conference in a diversity statement. 
 Next, use this vision and the set strategies to define measurable indicators and goals of diversity and inclusion (\textit{e.g.}, a gender distribution of your speakers that is representative of the general population, presence of racialized people --especially Black people-- among the head organizers, speakers, and attendees, or participation from key geographic regions). 
 These numbers should guide you and help achieve your vision.
+
 
 % Investing a substantial effort towards the most excluded groups does not mean neglecting the other communities, but will instead ensure equity, guide the vision of diversity for your conference, and help design strategies to achieve it.
 % vision
@@ -396,18 +401,20 @@ These numbers should guide you and help achieve your vision.
 \label{rule_inclusion}
 
 % Rocío: main idea: Inclusion for everyone
-While it is essential to improve representation towards some of the most visible dimensions of human diversity, such as race, gender, and country of origin, building a truly inclusive environment means taking care of all the other aspects of diversity as well. 
+While it is essential to improve representation towards some of the most visible dimensions of human diversity, such as race, gender, and country of origin, building a genuinely inclusive environment means taking care of all aspects of diversity. Inclusivity should lie at the heart of setting the tone and meeting space for any meeting as we move forward in the 21st century!
 % Edit and make more specific (below)
-Promote respect of pronouns, schedule events exclusive for diverse groups (e.g., LGBTQIA+-friendly spaces), and if the conference has an in-person component, set spaces for religious practices, breastfeeding and child care, and include menu options that account for diverse dietary and religious requirements. These are just some examples of decisions that are relatively easy to implement and can have a large impact in making inclusion real (see \cite{noauthor_discover2021} for some great advice on `low-hanging fruits').
-Importantly, by being proactive in creating such a welcoming space, you can be respectful of everybody's privacy and avoid requiring anyone to disclose personal information–such as revealing a disability, the sexual orientation, gender identity, or mental health issues, just to a name a few.
+
+\emoji{bulb} \textbf{Practical tips:} Here are a few ways in which conference organizers can actively enforce inclusivity, such as i) Promote respect of pronouns, ii) schedule events exclusive for diverse groups (\textit{e.g.}, LGBTQIA+-friendly spaces), iii) if the conference has an in-person component, pre-assign spaces for religious practices, lactation, and child care, iv) include menu options that account for diverse dietary and religious requirements. These are just a few easy-to-implement examples with a significant impact on including key sub-groups that otherwise find it challenging (see \cite{noauthor_discover2021} for some great advice on 'low-hanging fruits').
+Importantly, by being proactive in creating such a welcoming space, the organizers can be respectful of attendees' privacy and avoid requiring anyone to disclose personal information, such as revealing a disability, sexual orientation, gender identity, or mental health issues, to a name a few.
 % Rocío: Could have a paragraph about active bystandership—Andrea%ö
 %promote a supportive and respectful environment where attendants act as active bystanders. y definir '¬¬ 
 % Rocío: main idea: Code of conduct for a safe place
-Adopting a Code of Conduct and gathering a team to enforce it are key aspects in creating a safe environment during a conference \cite{favaroYourScienceConference2016}.
-The Code of Conduct is a document meant to keep the community safe and should state clearly the unacceptable behaviors, the consequences for engaging in such behavior, and the way to report violations \cite{auroraHowRespondCode2019}. 
-The Code of Conduct team must receive training on how to receive reports, respond to incidents, communicate their responses, and organize accordingly creating protocols on how to respond. This should be done during the early phases of the conference planning because Code of conduct violations can happen before the conference (e.g. social media, organization meetings).  
-Since people from marginalized groups are more likely to be victims of Code of Conduct violations and to see their claims dismissed due to power dynamics, assembling a diverse Code of Conduct team will be essential to deal with discrimination and harassment issues and the power dynamics underneath them and deal with them in a sensitive manner. It may also be more understanding of different disciplinary cultures and geographical and cultural considerations. 
-We strongly recommend reading `How to Respond to Code of Conduct Reports' \cite{auroraHowRespondCode2019} as an excellent starting point for the Code of Conduct teamwork.
+
+Adopting a Code of Conduct (CoC) and gathering a diverse team to enforce these ideas are vital in creating a safe environment during a conference \cite{favaroYourScienceConference2016}.
+The CoC is a living document meant to keep the community safe and should state clearly the unacceptable behaviors, the consequences for engaging in such behavior, and the way to report violations \cite{auroraHowRespondCode2019}. 
+The CoC team must receive training on how to receive reports, respond to incidents, communicate their responses, and organize protocols on how to respond correspondingly. This should be done during the early phases of the conference planning because CoC violations can happen before the conference too (\textit{e.g.}, social media, organization meetings).  
+Since people from marginalized groups are more likely to be victims of Code of Conduct violations and find their claims dismissed due to inadvertent power dynamics, assembling a diverse CoC team will be essential to appropriately deal with discrimination and harassment issues and the power dynamics underneath them with respect and sensitivity. A well-drafted CoC may also be more understanding and accommodating of different disciplinary cultures and geographical and cultural considerations. 
+We strongly recommend reading `How to Respond to Code of Conduct Reports' \cite{auroraHowRespondCode2019} as an excellent starting point for building a strong CoC team.
  
 
 
