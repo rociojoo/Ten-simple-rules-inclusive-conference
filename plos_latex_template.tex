@@ -113,7 +113,7 @@
 \usepackage{pdfcomment}
 
 %Janani: for inserting sparingly few super relevant emojis
-\usepackage{emoji} %Rocio: https://www.overleaf.com/learn/latex/Questions/Inserting_emojis_in_LaTeX_documents_on_Overleaf#Emoji_characters_and_the_Overleaf_editor
+% \usepackage{emoji} %Rocio: https://www.overleaf.com/learn/latex/Questions/Inserting_emojis_in_LaTeX_documents_on_Overleaf#Emoji_characters_and_the_Overleaf_editor
 
 % create "+" rule type for thick vertical lines
 \newcolumntype{+}{!{\vrule width 2pt}}
@@ -208,10 +208,10 @@ Juan Pablo Narváez-Gómez\textsuperscript{15},
 Marcela Alfaro Córdoba\textsuperscript{16},
 Federico Marini\textsuperscript{17},
 Rita Giordano\textsuperscript{18},
-Adithi Upadhya\textsuperscript{19},
-Joselyn Chávez\textsuperscript{20},
-Anicet Ebou\textsuperscript{21},
-Silvia Canelón\textsuperscript{22},
+Silvia Canelón\textsuperscript{19},
+Anicet Ebou\textsuperscript{20},
+Adithi Upadhya\textsuperscript{21},
+Joselyn Chávez\textsuperscript{22},
 Janani Ravi\textsuperscript{23}
 %,3\textcurrency}
 \\
@@ -252,13 +252,13 @@ Janani Ravi\textsuperscript{23}
 \\
 \textbf{18} Royal Society of Chemistry, Thomas Graham House (290), Science Park, Milton Road, Cambridge, UK
 \\
-\textbf{19} ILK Labs/Bengaluru, Karnataka 560046, India
+\textbf{19} Department of Biostatistics, Epidemiology \& Informatics, University of Pennsylvania, Philadelphia, PA, USA.
 \\
-\textbf{20} Instituto de Biotecnología, UNAM, Cuernavaca, Morelos, México
+\textbf{20} Bioinformatics team, Département de Formation et de Recherches en Agriculture et Ressources Animales, Institut National Polytechnique Félix Houphouët-Boigny, BP 1313 Yamoussoukro, Côte d’Ivoire.
 \\
-\textbf{21} Bioinformatics team, Département de Formation et de Recherches en Agriculture et Ressources Animales, Institut National Polytechnique Félix Houphouët-Boigny, BP 1313 Yamoussoukro, Côte d’Ivoire.
+\textbf{21} ILK Labs/Bengaluru, Karnataka 560046, India
 \\
-\textbf{22} Department of Biostatistics, Epidemiology \& Informatics, University of Pennsylvania, Philadelphia, PA, USA.
+\textbf{22} Instituto de Biotecnología, UNAM, Cuernavaca, Morelos, México
 \\
 \textbf{23} Departments of Pathobiology and Diagnostic Investigation, Microbiology and Molecular Genetics, Michigan State University, East Lansing, MI 48824, USA
 \\
@@ -292,11 +292,10 @@ Janani Ravi\textsuperscript{23}
 
 Conferences are spaces to meet and network within and across academic and technical fields, to learn about new advances, and share our work. They can help define career paths and create long-lasting collaborations and opportunities. 
 However, these opportunities are not equal for all. 
-This article introduces ten simple rules to host an inclusive conference. 
-The authors recently organized the 2021 edition of the useR! statistical computing conference, attracting a broad range of participants from academia, industry, government, and the non-profit sector. 
+This article introduces ten simple rules to host an inclusive conference based on the authors' recent experience organizing the 2021 edition of the useR! statistical computing conference, which attracted a broad range of participants from academia, industry, government, and the non-profit sector. 
 Coming from different backgrounds, career stages, and even continents, we embraced the challenge of organizing a high-quality virtual conference in the context of the COVID-19 pandemic and making it a kind, inclusive, and accessible experience for as many people as possible.
 The rules result from our lessons learned before, during, and after the organization of the conference. 
-They have been mainly written for potential organizers or selection committees of conferences and contain multiple practical tips so that they can help diverse types of events to become as accessible and inclusive as they can and should be.
+They have been mainly written for potential organizers and selection committees of conferences and contain multiple practical tips to help a variety of events become more accessible and inclusive. We see this as a starting point for conversations and efforts towards building more inclusive conferences across the world.
 
 
 % % Please keep the Author Summary between 150 and 200 words
@@ -306,16 +305,16 @@ They have been mainly written for potential organizers or selection committees o
 \section*{Introduction}
 
 % Conferences are great, but only for some
-Conferences are spaces to meet and reconnect with members from a specific community, learn about advances in the field, and share our recent contributions.
+Conferences are spaces to meet and reconnect with members from a specific community, learn about advances in the field, and share recent contributions.
 A good conference experience can make a difference in the professional development of the participants and create long-lasting collaborations and opportunities. 
-However, opportunities for participating in conferences are not equal for all. 
-Many academic and tech conferences have become spaces that reproduce systemic inequalities, by failing to eliminate the barriers for participation and giving more opportunities to the most privileged individuals (typically white people from high-income countries, prestigious institutions, native English speakers with no disabilities, for example) \cite{arendDisparityConferenceRegistration2019, biggsAcademicConferenceChilly2018, depickerRethinkingInclusionDisability2020a, irishIncreasingParticipationUsing2020}.
-The authors of this article have experienced these inequalities in conferences, from different perspectives and levels of inclusion/exclusion and privilege.
+However, opportunities for participating in conferences are not equally available for all. 
+Many academic and tech conferences have been spaces that reproduce systemic inequalities, by failing to overcome the barriers for participation and giving more opportunities to the most privileged individuals (typically white people from high-income backgrounds, prestigious institutions, native English speakers with no disabilities) \cite{arendDisparityConferenceRegistration2019, biggsAcademicConferenceChilly2018, depickerRethinkingInclusionDisability2020a, irishIncreasingParticipationUsing2020}.
+Like many others, the authors of this article have experienced these inequalities in conferences, from different perspectives and levels of inclusion/exclusion and privilege.
 We had the opportunity to organize a virtual and global statistical computing conference, useR! 2021 \cite{sanchez-tapia_user_2021-2}, for users and developers of the R programming language \cite{r_core_team_2021}.
 Coming from different backgrounds, career stages, and even continents, we embraced the challenge of organizing a high-quality virtual conference in the context of the COVID-19 pandemic and making it a kind, inclusive, and accessible experience for as many people as possible.
 
 % Roadmap of the paper
-The rules result from our lessons learned before, during, and after the organization of the useR! conference. 
+Here, we present a set of ten rules based on the lessons we learned before, during, and after the organization of the useR! conference. 
 They are organized in three sections: three foundational rules, six design rules, and a continuity rule (\textbf{Fig. \ref{fig:diagram}}).
 The \textbf{foundational rules} comprise key elements to conceive the work on diversity and inclusion in any conference. 
 \textbf{Rule 1} is about setting a vision of diversity and inclusion that should guide all the efforts and decision making in the organization.
@@ -326,14 +325,14 @@ In \textbf{Rule 4}, we introduce multiple ways to counteract bias in the confere
 \textbf{Rule 5} provides advice for designing an inclusive online component in virtual and hybrid conferences.
 \textbf{Rule 6} focuses on accessibility practices to include people with disabilities.
 In \textbf{Rule 7}, we provide suggestions to encourage and ensure full participation of non-native English speakers. 
-\textbf{Rule 8} provides tips for developing an inclusive communication strategy. 
+\textbf{Rule 8} offers tips for developing an inclusive communication strategy. 
 In \textbf{Rule 9}, we address budgeting for inclusive practices and helping participants with affordable registration costs, scholarships, and other forms of financial support.
 Finally, 
-\textbf{Rule 10}, the \textbf{continuity} rule, emphasizes the importance of self-assessment and advocates for making the conference part of a long-term commitment to inclusion. 
+\textbf{Rule 10}, the \textbf{continuity} rule, emphasizes the importance of self-assessment and advocates for making the conference part of a long-term commitment to inclusion, and passing the torch to future organizers. 
 
-We believe that these rules will greatly benefit organizers who intend to put inclusion at the core of their conference right from the conception and planning phases.
+We believe that these rules can guide organizers who intend to put inclusion at the core of their conference right from the conception and planning phases.
 The rules will also help people who are part of meeting committees that oversee the site/location selection process, or that coordinate with the local organizers of conferences. 
-We have designed them for wide adoption to help scientific and technical conferences to become as accessible and inclusive as they can and should be.
+We see the rules as a starting point for conversations and efforts towards building more inclusive conferences across the world.
 
 
 % refs for past works in case we add them in line 311.
@@ -345,37 +344,35 @@ We have designed them for wide adoption to help scientific and technical confere
 \centering
 %ast: use Adobe Acrobat to add missing accessibility metadata to your PDF file. ask how to do this this when submitting - some edits to the PDF may be needed to add alt-text to the final version https://chi2021.acm.org/for-authors/presenting/papers/guide-to-an-accessible-submission#late
 \pdftooltip{
-\includegraphics[width=\textwidth]{figs/rules.png}}{
-%Alt-text for the figure to be included in the final PDF: Diagram of how the 10 rules are organized into three groups: foundational rules (rules 1-3), design rules (rules 4 to 9), and a continuity rule (rule 10). The overall diagram depicts an arrow from left to right which contains all the rules. From left to right, "the foundations" label is surrounded by blue bubbles which show Rule "1 Vision", Rule "2 Safe environment", and Rule "3 Organizing Team". Then, the label "Design Rules" is surrounded by six blue bubbles with Rules "4 Counteract bias", "5 Online", "6 Accessibility", "7 Language", "8 Communication",  "9 Financial". To the right, and forming the head of the arrow, the Tenth Rule is under the label "Continuity" and consists of a blue bubble "10 Assess and pass along".
+\includegraphics[width=\textwidth]{figs/fig1_rules.png}}{
+%Alt-text for the figure to be included in the final PDF: Diagram of how the 10 rules are organized into three groups: foundation rules (Rules 1-3), design rules (Rules 4 to 9), and a continuity rule (Rule 10). The overall diagram depicts an arrow from left to right which contains all the rules. In the left column, under the first label" Foundation", there are three text boxes in light blue: "1. Vision", "2. Safe environment", and "3. Organizing Team". In the middle column, under the label "Design Rules" there are six light green boxes with Rules "4. Counter bias", "5. Virtual / hybrid", "6. Accessibility", "7. Language", "8. Communication",  "9. Finance". To the right, below the arrowhead labeled Continuity, is the Tenth Rule in a light pink box "10. Pass the torch".
 }
-\caption{Schematic diagram of the rules organized in three groups: the foundations (Rules 1, 2, and 3), conference design (Rules 4 to 9), and continuity (Rule 10).}
+\caption{Schematic diagram of the rules organized in three groups: foundation (Rules 1, 2, and 3), design (Rules 4 to 9), and continuity (Rule 10).}
 \label{fig:diagram}
 \end{figure}
 
 
-
-
-\subsection*{Rule 1: Set a vision for diversity and inclusion}
+\section*{Rule 1: Set a vision for diversity and inclusion}
 \label{rule_diversity}
 
 Diversity encompasses multiple dimensions: age, disability, career stage, gender, gender identity, geographic origin, language, neurodiversity, race, religion, sexual orientation, and socioeconomic background, to name a few.
 Human diversity should be celebrated and respected in every way. 
 Nonetheless, we live in a world with implicit hierarchies along these axes. 
 Some statuses (e.g. being cisgender, white, male, from North America or Western Europe) hold the privilege of being the defaults around which all systems—including conferences—are consciously and unconsciously built. 
-People outside the dominant groups suffer different forms of oppression, like sexism, racism, ableism, homophobia, and transphobia, and sometimes these forms of oppression happen simultaneously and in complex ways \cite{crenshawDemarginalizingIntersectionRace1989}.
-As a result, some groups of people have been systematically excluded from or only partially included in academia and scientific and professional circles.
+People outside the dominant groups suffer different forms of oppression, like sexism, racism, ableism, homophobia, and transphobia, and sometimes these forms of oppression happen simultaneously and in complex ways (a concept known as `intersectionality' \cite{crenshawDemarginalizingIntersectionRace1989}).
+As a result, some groups of people have been systematically excluded from or only partially included in academic, scientific, and professional circles.
 Recognizing this systematic exclusion is paramount to inclusion.
-Assess how it translates to your particular field and scientific or professional community and use this assessment to set the vision and goals of diversity and inclusion for your conference.
+Assess how lack of diversity translates to your particular field and scientific or professional community and use this assessment to set the vision and goals of diversity and inclusion for your conference.
 Define measurable indicators for these goals (e.g. a gender distribution of your speakers that is representative of the general population, the participation of people from diverse races and ethnicities among the organizers, speakers, and attendees, or participation from key geographic regions) that will help you be accountable along the way.
 The vision can be expressed in a diversity statement to be used as a reference for decision making in all areas of the conference organization. 
 
-\subsection*{Rule 2: Create a safe and welcoming environment}
+\section*{Rule 2: Create a safe and welcoming environment}
 \label{rule_inclusion}
 
 % Inclusion for everyone
 % Explain why we need this
-Real inclusion can only be achieved in an environment where everybody feels safe, respected, and invited to take part of the conference activities and community. Be proactive and design a welcoming conference experience that takes into account the well-being of all the attendees. This means respecting all the aspects you committed to in your diversity vision (see \textbf{Rule 1}). For example, promote the use and respect of pronouns and commit to respect all genders and sexual orientations. If the conference has an in-person component, pre-assign quiet, private spaces for religious practices, lactation, and child care. Include menu options that account for diverse dietary and religious requirements.
-Some of these actions are very easy to implement and have a significant impact on making everyone feel truly included (see \cite{numfocus_discover_2021} for more examples and  great advice on `low-hanging fruits').
+Real inclusion can only be achieved in an environment where everybody feels safe, respected, and invited to take part of the conference activities and community. Be proactive and design a welcoming conference experience that takes into account the well-being of all the attendees. This means respecting all the aspects included in your diversity vision (see \textbf{Rule 1}). For example, promote the use and respect of pronouns and commit to respect all genders and sexual orientations. If the conference has an in-person component, pre-assign quiet, private spaces for religious practices, lactation, and child care. Include menu options that account for diverse dietary and religious requirements.
+Some of these actions are very easy to implement and have a significant impact on making everyone feel truly included (see \cite{numfocus_discover_2021} for more examples and great advice on `low-hanging fruits'), some others need careful planning in advance, so it's good to have them in mind from the beginning.
 Open the schedule for events organized by thematic groups and communities (e.g. task force meetings, LGBTQIA+-friendly spaces, Black in STEM), and sessions aimed to welcome first-timers to the conference.
 
 % A culture of support (active bystandership) and code of conduct for a safe place 
@@ -385,15 +382,16 @@ However, the most important step that you should take to ensure the safety of th
 adopting a code of conduct (CoC) and preparing a diverse response team to enforce it \cite{favaroYourScienceConference2016}.
 The CoC is a living document meant to keep the community safe and should state clearly the unacceptable behaviors, the consequences for engaging in such behaviors, and the way to report violations \cite{auroraHowRespondCode2019}.
 The CoC response team must receive training on how to receive reports, respond to incidents, and communicate their responses to the whole community. The team should be prepared early during conference planning because CoC violations can happen before the conference too (e.g. social media, organization meetings).  
-We strongly recommend reading `How to Respond to code of conduct Reports' \cite{auroraHowRespondCode2019} as an excellent starting point for building a strong CoC response team.
+Responding to CoC reports can be one of the most emotionally intense tasks of the team. Resources permitting, consider adding their work to your budget (see \textbf{Rule 9}).
+We strongly recommend reading `How to Respond to code of conduct Reports' \cite{auroraHowRespondCode2019} as an excellent starting point for building a strong CoC response team. 
  
 
-\subsection*{Rule 3: Have an inclusive and diverse organizing team}
+\section*{Rule 3: Gather an inclusive and diverse organizing team}
 \label{rule_organizing_team}
 
 % Build a diverse team, and representation
 A genuinely inclusive conference can only be organized by an inclusive and diverse team.
-Organizers should comprise a team with people from as many different backgrounds as possible regarding regions, genders, ethnicities, career stages, and other aspects of diversity.
+Organizers should comprise a team with people from as many different backgrounds as possible in terms of regions, genders, ethnicities, career stages, and other aspects of diversity.
 People with disabilities often say: `Nothing about us without us' \cite{charlton_nothing_1998, werner_nothing_1998}; the same holds for other dimensions of diversity. 
 Having people from diverse backgrounds in decision-making roles will positively affect the conference as a whole because all the processes will benefit from their expertise, experience, and distinct perspectives \cite{hongGroupsDiverseProblem2004}. 
 The experience of people in marginalized groups
@@ -405,55 +403,53 @@ every member should have the freedom to choose which areas of the conference the
 % Rocío: Idea of this paragraph: tips to make a diverse and inclusive team work + paying them
 If you have already started assembling an organizing team, check for gaps in its composition and do your best to fill them. 
 The regional and local communities, groups, or associations in your field are good sources to tap into. 
-When it comes to team leadership, do not expect self-nomination and voting to work as infallible mechanisms to fill these positions equitably. 
-People from underrepresented groups sometimes refrain to nominate themselves while people in dominant groups tend to do it more easily. 
-Instead, nominate folks directly and offer them leading positions in the organization team, especially those positions that would be typically occupied by people from privileged groups.
-Bear in mind that some people may lack the institutional or financial support to put time and effort into the organization tasks and do not have the luxury to commit for free; consider paying them as an item in your budget (see \textbf{Rule 9}).
-Furthermore, tasks such as receiving and responding to CoC reports can be emotionally intense work and should be additionally rewarded.
+When it comes to team leadership, do not expect self-nomination and voting to work as infallible mechanisms to fill these positions equitably.
+Instead, nominate folks directly and offer them leadership positions in the organization team, especially those positions that would be typically occupied by people from privileged groups.
+Bear in mind that some people may lack the institutional or financial support to put time and effort into the organization tasks and do not have the luxury to commit for free; consider reallocating resources to give them a stipend for their work (see \textbf{Rule 9}).
+In any case, try to find meaningful ways to acknowledge everybody's work. Use the conference spaces (e.g. webpage, opening/closing ceremony at the conference, social media) to give proper credit to the people who are making the event possible.
 And most importantly, take care of your team and their well-being! Check on them regularly and make sure that everyone is comfortable. This represents a great amount of work and you will need to support each other in the long run.
 
 
-\subsection*{Rule 4: Consciously counteract bias in the conference program}
+\section*{Rule 4: Consciously counteract bias in the conference program}
 \label{rule_unbias}
 
 The conference program may lack diversity in the invited roles––such as keynote speakers, program/scientific committee, session chairs, panelists––, the accepted abstracts, and even the scope of the topics covered. 
 It is important to counteract biases in all of these aspects.
-When choosing or inviting people for visible and valued roles in the conference it is likely that there will not be much diversity in the first pool of names \cite{dwyerNoticeWhoScience2021,swartzScienceValueDiversity2019,wongBuildDiversityScience2020,dignazioUnicornsJanitorsNinjas2020}. 
-Rather than deter you, this should encourage you to go beyond your current networks to look for, reach out to, invite, encourage, and onboard great people that are not routinely in the spotlight, making sure that these roles do not reinforce existing privileges.
+When choosing or inviting people for visible and valued roles in the conference, it is likely that there will not be much diversity in the first pool of names \cite{dwyerNoticeWhoScience2021,swartzScienceValueDiversity2019,wongBuildDiversityScience2020,dignazioUnicornsJanitorsNinjas2020}. 
+Rather than deterring you, this should encourage you to go beyond your current networks to look for, reach out to, invite, encourage, and onboard great people that are not routinely in the spotlight, making sure that these roles do not reinforce existing privileges.
 
 Biases in the final list of abstracts begin with self-selection: some potential conference participants may not feel confident enough to submit their work, especially to large and prestigious conferences.
-To mitigate this, 
-some communities have pre-submission mechanisms to aid their members prepare and receive feedback for their abstract (e.g. the Latin-R and R-Ladies communities have volunteers to help their members improve their conference abstracts).
+To mitigate such self-selection, some communities have pre-submission mechanisms to aid their members prepare and receive feedback for their abstract (e.g. the Latin-R and R-Ladies communities have volunteers to help their members improve their conference abstracts).
 If this does not exist in your field yet, consider asking members of your community to provide a similar kind of mentorship.
 
 The abstract review process can be subjected to implicit bias \cite{ross_everyday_2020} when folks in the selection committee unconsciously assign a positive or negative value to the names and affiliations of authors—and their perceived origin, ethnicity, gender, or native language—, affecting the chances to get their work accepted. 
-Selection committees need to be reminded of such biases in the evaluation process to try to avoid judging more scrupulously the work of people perceived as part of minoritized groups, or being kinder when reviewing the abstracts from those perceived as part of privileged groups and considering their work as more relevant \cite{swartzScienceValueDiversity2019}.
+Selection committees need to be reminded of such biases in the evaluation process to try to avoid judging more scrupulously the work of people perceived as part of minoritized groups, or being kinder when reviewing the abstracts from those perceived as part of privileged groups and considering their work as more relevant \cite{swartzScienceValueDiversity2019, andersson_implicit_2019}.
 Evaluate the plausibility of anonymizing all of the submission information to
 define the most appropriate strategy for reviewing (e.g. double blind, double open, or single blind reviews; see \cite{numfocus_discover_2021}).
 Define clear evaluation criteria and share them with the reviewers and authors.
-Check the final lists of speakers and do not hesitate to curate them to correct any imbalances you observe; even well-meaning and carefully crafted processes can be prone to reproduce the biases observed in academia and society.
+Check the final lists of speakers and do not hesitate to curate them to correct any imbalances you observe; even well-meaning and carefully crafted processes can be prone to reproduce the biases present in academia and society.
 
 In many academic or technological fields, typically competitive activities or areas—such as scientific publications or software development—are more valued than those focused on sharing and cooperation, like community building, teaching, or mentoring. 
 The latter activities are equally, if not more, relevant and challenging, and are usually performed by women, racialized people, people with disabilities, and other minoritized groups \cite{cheng2020x+, burfordHomelinessMeantHaving2020, light_gender_2022}.
 When planning the program for the conference, consider giving visibility to the whole range of activities and practitioners that contribute to the field by proposing new thematic sessions, broadening the scope of talks, keynotes, and tutorials. 
 
 
-\subsection*{Rule 5: Design a strong online component} 
+\section*{Rule 5: Design a strong online component} 
 \label{rule_online}
 
 After experiencing virtual conferences mostly due to the COVID-19 pandemic, there have been multiple calls to retain an online component in conferences, either as completely virtual events or using hybrid formats (combining in-person and online components) \cite{jooKeepOnlineOption2021, woolstonLearningLoveVirtual2020, ninerBetterWhomLeveling2021, roosOnlineConferencesNew2020, levitisCenteringInclusivityDesign2021, sarabipourChangingScientificMeetings2021}.
-Virtual conferences remove barriers for inclusion like costs of participation, the logistics of long-distance travel, and discriminatory visa applications \cite{jooKeepOnlineOption2021, ninerBetterWhomLeveling2021, salibaGettingGripsOnline2020, gichoraTenSimpleRules2010a}. 
+Virtual conferences remove barriers for inclusion like costs of participation, the logistics of long-distance and international travel, and discriminatory visa applications \cite{jooKeepOnlineOption2021, ninerBetterWhomLeveling2021, salibaGettingGripsOnline2020, gichoraTenSimpleRules2010a}. 
 Make sure that you are not creating additional barriers when choosing conference platforms, schedule, and activities. 
 Check every platform's screen reader accessibility (see \textbf{Rule 6}), technological requirements (a high-speed internet or a latest generation computer prerequisite could exclude attendees from many regions), and geopolitical restrictions (some services are not available in all countries).
 Be mindful of the different time zones and time constraints of the potential attendees and create flexible schedules.
-Avoid creating a strictly synchronous live program, ask for pre-recorded talks, record sessions, and make them available during the conference.
+Avoid creating a strictly synchronous live program; ask for pre-recorded talks, record sessions, and make them available during the conference.
 
-If you are organizing a hybrid event, decide on the relative importance that the online and in-person components will take \cite{bajpai_towards_2021}. The most inclusive practice would be to give equal weight to both components, articulating them well and maximizing the experience of everyone attending the conference.
+If you are organizing a hybrid event, decide on the relative importance that online and in-person components will take \cite{bajpai_towards_2021}. The most inclusive practice would be to give equal weight to both components, articulating them well and maximizing the experience of everyone attending the conference.
 The audience, chairs, and presenters should all be able to interact regardless of their in-person or remote status. 
 To best integrate in-person and remote attendees, all questions and comments should pass through a unique online system. 
-The physical venue would have to include multiple ways to connect with online folks such as cameras and microphones to allow them to follow who is speaking at the in-person space, and tablets to help in-person attendees interact with them.
+The physical venue would have to include multiple ways to connect with online folks such as cameras and microphones to allow them to follow who is speaking at the in-person space, and tablets to help in-person attendees interact with remote participants.
 
-Online networking and socializing can make people from minoritized groups feel more included, thus participate and contribute more, than when meeting face-to-face for the first time \cite{trianaDoesOrderFacetoFace2012,blackEngenderingBelongingThoughtful2020}.
+Online networking and socializing can make people from minoritized groups feel more included, thus participate and contribute more, than when meeting face-to-face for the first time (e.g. \cite{trianaDoesOrderFacetoFace2012,blackEngenderingBelongingThoughtful2020}).
 Take advantage of the online component to have a broader range of social activities that can appeal to people with different backgrounds and preferences.
 Offer some activities that require voice or video interactions, and others that involve only written chat.
 You can adapt in-person activities for online and hybrid settings or create new activities. 
@@ -464,13 +460,13 @@ It is understandable that a few of these activities would only be in-person, but
 there should be a fair proportion of activities connecting in-person and online attendees. 
 
 
-\subsection*{Rule 6: Make the conference accessible to people with disabilities}
+\section*{Rule 6: Make the conference accessible to people with disabilities}
 \label{rule_accessibility}
 
-Conferences are among the least accessible spaces that people with disabilities may encounter in professional contexts \cite{priceAccessImaginedConstruction2009}. Even when conferences implement other inclusive practices, the participation of people with disabilities is often overlooked \cite{marks2021meeting}. Including people with disabilities in the organizing team from the start can have a large impact (see \textbf{Rule 3}), since planning for accessibility requires time, experience, and early decision-making, because inaccessible features are difficult to correct at later stages \cite{irishIncreasingParticipationUsing2020}. To ensure that disabled organizers can contribute substantially, the tools selected for behind-the-scenes organizing, communication, and planning the conference must be compatible with adaptive technology like screen readers, as well as providing captions for spoken conversations for deaf people. Many products currently available to organizers come with barriers to full participation. The people who use these technologies have expertise on which products work best with them.
+Conferences are among the least accessible spaces that people with disabilities may encounter in professional contexts \cite{priceAccessImaginedConstruction2009}. Even when conferences implement other inclusive practices, the participation of people with disabilities is often overlooked \cite{marks2021meeting}. Including people with disabilities in the organizing team from the start can have a large impact (see \textbf{Rule 3}). Planning for accessibility requires time, experience, and early decision-making, because inaccessible features are extremely difficult to correct at later stages \cite{irishIncreasingParticipationUsing2020}. To ensure that disabled organizers can contribute substantially, the tools selected for behind-the-scenes organizing, communication, and planning the conference must be compatible with adaptive technology like screen readers. When working with deaf and hard-of-hearing people, spoken conversations should have captions.
 
 If the conference has an in-person component, the venue should comply with common accessibility standards, such as being adequate for people who use wheelchairs, having signs in Braille, and using a sound system compatible with hearing devices and language interpretation, to name a few. 
-Invisible disabilities  (e.g. dyslexia, anxiety, ADHD, autism) should be accounted for proactively, for example, by providing quiet spaces for privacy and noise-free conversations, or providing chairs in open spaces.
+Invisible disabilities (e.g. dyslexia, anxiety, ADHD, autism) should be accounted for proactively, for example, by providing quiet spaces for privacy and noise-free conversations, or providing chairs in open spaces (but see \cite{pun_dos_2016} for other examples).
 
 Regardless of the conference format, all platforms (website, registration, abstract submission, chat system, conference administration tools, live streaming) should be screen-reader friendly and keyboard accessible.
 All images used in digital conference spaces should have alternative text and use colorblind-safe palettes.
@@ -484,7 +480,7 @@ Importantly, accessibility practices are inclusive not only for people with disa
 For instance, captions are helpful for non-native speakers and having slides available for download helps attendees with low bandwidth connection. 
 
 
-\subsection*{Rule 7: Make room for the linguistic diversity of your community}
+\section*{Rule 7: Make room for the linguistic diversity of your community}
 \label{rule_language}
 
 % Rocío: main idea: English as the only language makes some people privileged and is a barrier for others
@@ -497,10 +493,9 @@ and conferences may in turn miss innovative contributions.
 % Rocío: main idea: make conferences more linguistically inclusive
 Create an inclusive environment by encouraging the full participation of non-native English speakers. This may be done in multiple ways.
 Allow for abstract submission in both English and the language the person feels more comfortable with, and consider the possibility of assigning a reviewer who is fluent in that language. That way, the abstract will be judged primarily by the quality or relevance of the work instead of English proficiency.
-For presentations spoken in English, provide English-to-English captions to help non-native English speakers (in addition to people with hearing disabilities, see \textbf{Rule 6}) follow the presentations. 
 Whenever possible, identify other prominent languages for the conference and provide translated captions or live language interpretation into these key languages, including multilingual Q\&A sessions.
 Another way to engage non-native English participants is to host sessions and events in languages other than English. 
-Promote these sessions among all conference attendees and announce if captions will be available; all sessions, regardless of the language, should be given the same relevance.
+Promote these sessions among all conference attendees and announce if captions will be available; non-English sessions should be given the same relevance as the rest of the program.
 Importantly, consideration and respect of accents or linguistic mistakes can make a significant difference in the conference experience of non-native English speakers. Kindly remind your native English-speaking audience to be mindful of that.
 
 This rule also applies to cases when English is not the official language of the conference (e.g. a Latin American conference with Spanish as the official or most popular language). No language should be a barrier for inclusion. 
@@ -508,7 +503,7 @@ This rule also applies to cases when English is not the official language of the
 % Rocío: we could eventually cite https://conferenceinference.wordpress.com/2020/11/30/when-language-is-not-a-barrier-a-tale-fr[…]istically-inclusive-conference-toma-pustelnikovaite/
 
 
-\subsection*{Rule 8: Build an inclusive communication strategy}
+\section*{Rule 8: Build an inclusive communication strategy}
 % media
 \label{rule_communication}
 
@@ -517,14 +512,13 @@ Actively reach out and promote the conference to communities that have been syst
 Promote the abstract submission call beyond the usual communication channels and reach out to local groups and communities of practice to encourage submissions by their members.
 The members of your team should be able to decide which languages to emphasize and which social media platforms to utilize for the promotion of the conference (e.g. Twitter, Facebook, LinkedIn, conference website, mailing lists).
 
-Publish the diversity statement, code of conduct, accessibility guidelines, and options for financial support (see \textbf{Rule 9}) to communicate your practices and to hold yourself accountable for them.
+Publish the diversity statement, code of conduct, accessibility guidelines, and options for financial support (see \textbf{Rule 9}) to communicate your values and practices, and to hold yourself accountable for them.
 Be transparent with potential attendees and communicate limitations of your conference to let them know what to expect, and ways in which you will try to mitigate these issues. 
 For instance, inform if the conference platform is not completely screen-reader friendly, let people know if you are offering help to navigate it, or if captions will be available for some talks but not all.
 Provide a point of contact to help clarify any questions regarding accessibility, financial support, and others.
 
 Use inclusive language—language free from words, phrases, or tones that reflect prejudiced or discriminatory views of particular people or groups—in all communications \cite{hallDesigningDiversityInclusion2019}. 
-Avoid as well all offensive or sexualized imagery in slides, conference materials, social events, and.
-Become familiar with the terminology used for disabilities, racialized groups, gender and sexual orientations, terms that are preferred by each group and the terms that should be avoided.
+Become familiar with the terminology used for disabilities, racialized groups, gender and sexual orientations, terms that are preferred by each group, and the terms that should be avoided.
 Do not expect minoritized people to teach you and accept feedback without being offended.
 Inclusive language also encompasses avoidance of excessive and too specific technical jargon and acronyms. 
 
@@ -542,29 +536,28 @@ For example, useR! 2021 created a mascot for the conference wearing different sc
 \end{figure}
 %alt-text for the figure, to be included in the final PDF: Five marmots with colorful scarves. From left to right: a marmot with a dark and light green scarf from the MiR community is watching her tablet, a marmot with the purple and gray scarf for R-Ladies is stepping on a rock and watches the horizon, a marmot with an orange and purple AfricaR scarf is sitting on a couch watching a film on her laptop with popcorn, a yogi marmot with a rainbow LGBTQIA+ scarf does the warrior pose on her blue mat, and finally, a marmot with a scarf with the pink, light blue and white color of the transgender pride flag waves her hand. 
 
-\subsection*{Rule 9: Allocate adequate financial resources to support inclusion goals}
+\section*{Rule 9: Allocate adequate financial resources to support inclusion goals}
 \label{rule_financial}
 
 % Rocío: main idea: Need to budget for inclusive practices.
-Allocation of resources to support the diversity and inclusion vision and goals has to be intentional. 
+Allocation of resources to support the diversity and inclusion vision and goals has to be intentional and demonstrate true commitment. 
 Estimate the costs of these practices and define your priorities in advance (e.g. paying the organizing team, code of conduct training, captioning, accessible software, scholarships).
-Consider that an online conference might reduce overall costs (e.g. no rental costs for a physical venue), allowing to redirect the money towards inclusive practices. 
+An online conference might reduce overall costs (e.g. no rental costs for a physical venue), allowing to redirect the money towards inclusive practices. 
 When asking for sponsorship, it might be easier to justify supporting concrete actions towards inclusion than making generic requests for funding.
 
 % Rocío: main idea: help take the burden out of participants for more inclusive participation
 When determining the registration rates, the socioeconomic context of participants, their country of origin, and their career status should be taken into account  \cite{sarabipourChangingScientificMeetings2021, andalibPostdocQueueLabour2018, kaplanPostdocNot2012}
 (see \cite{canelon2021cost} for an example of conversion rates based on country of origin and career status). 
-Resources permitting, enable a `pay what you can' option. You could also aim to have a conference with no registration costs; this is especially true for online events, but bear in mind that free events have a lower attendance rate than paid events \cite{eventbrite_ultimate_2017}. 
+Resources permitting, enable a `pay what you can' option. You could also aim to have a conference with no registration costs; this could especially apply for online events, but bear in mind that free events have a lower attendance rate than paid events \cite{eventbrite_ultimate_2017}. 
 Scholarships to attend the in-person component of the conference are an additional way to boost participation of people from minoritized groups, by offering support for travel and lodging expenses.
 Design the diversity-related scholarship to be explicit about the groups you want to support, and be transparent about the criteria for evaluation to avoid self-selection (refraining from applying). 
 To assign these scholarships, conferences usually ask for cover letters or applications, which can be time-consuming and emotionally demanding. 
 Simplifying the process of requesting financial support, especially for 
 people who lack the time and resources (e.g. because of family responsibilities) could greatly increase their chances of applying for the support. 
 Additional aid for attendees could also be offered—e.g. paying for child care or internet connection services for the online component. 
-Bear in mind that transferring money internationally could be a cumbersome administrative process and significantly augment the burden of already marginalized groups. Whenever possible, facilitate alternate ways for money transfer (e.g. book flights, hotel reservations, waive conference fees, give gift cards). Depending on the country, services like OpenCollective (\url{https://opencollective.com}) can be very useful to do these transfers. 
+Bear in mind that transferring money internationally could be a cumbersome administrative process and significantly augment the burden of already marginalized groups. Whenever possible, facilitate alternate ways for money transfer (e.g. book flights, hotel reservations, waive conference fees, give gift cards). 
 
-
-\subsection*{Rule 10: Make the conference part of a long-term process for inclusion}
+\section*{Rule 10: Make the conference part of a long-term process for inclusion}
 \label{rule_process}
 
 % Rocío: main idea: assess how inclusive was the conference
@@ -583,56 +576,56 @@ If you are part of a stable meeting committee (overseeing multiple editions), en
 
 \section*{Concluding remarks}
 
-This article suggests changes in conference planning towards diversity and inclusion. 
+This article recommends changes in conference planning towards diversity and inclusion. 
 Organizing a conference and implementing inclusive practices are both learning experiences.
 As conference organizers ourselves, we started with different levels of clarity about the principles and practices described here, learned many of them together during the organization phase, and learned even more when translating them into ten rules for this paper. 
 We hope that they can be useful guidelines to improve diversity and inclusion in your conference, and that you can adapt them, improve them, and share your lessons and experience with as many people as possible. 
 
 Be aware of all the factors that may hinder your efforts for inclusion: systemic discrimination, time or money constraints, geopolitical or public health contexts, or personal issues affecting your organizing team. 
-Try to account for these factors as best as you can to set a realistic yet bold vision and goals of diversity and inclusion for the conference.
-At the end of the day, even if you do not achieve them at 100\%, striving for them will make you stretch what feels possible and help you make changes you would have otherwise not even attempted to make. 
-And most importantly, you would have contributed to a great conference experience for the attendees. 
+Try to account for these factors as best as you can to set bold yet realistic goals of diversity and inclusion for the conference.
+And most importantly, your efforts will enhance the conference experience for your attendees. 
 They will notice the welcoming and inclusive spirit of the conference. 
-Inclusive conferences can have lasting impacts in career paths and create a sense of belonging in the community. 
-That is more than enough motivation to make the effort worth it. 
+Remember that inclusive conferences can have lasting impacts in career paths and create a sense of belonging in the community.
+That is more than enough motivation to make the effort worth it.
 
 
 \section*{Authors' contributions}
 
-To list author contributions, we used the high-level contributor roles in the CRediT framework that we considered relevant for this study (project administration, supervision, writing original draft, conceptualization, writing—major reviews and edits, resources, and visualization; \url{http://credit.niso.org}), and an additional category to acknowledge those who shared their own ten simple rules for an inclusive conference without looking at the first draft (i.e. sharing rules).
+To list author contributions, we used the high-level contributor roles in the CRediT framework that we considered relevant for this study (project administration, supervision, writing original draft, conceptualization, writing—major reviews and edits, resources, and visualization; \url{http://credit.niso.org}), and additional categories to acknowledge those who shared their own ten simple rules for an inclusive conference without looking at the first draft (i.e. sharing rules), and those who translated the extended abstract into different languages.
 
 \begin{itemize}
-    \item RJ: Project administration, Supervision, Writing original draft, Conceptualization, Writing--major reviews and edits, Resources, Visualization
-    \item AST: Project administration, Supervision, Conceptualization,  Writing--major reviews and edits, Resources, Visualization, Sharing rules
-    \item SM: Conceptualization, Writing--major reviews and edits, Resources, Visualization, Sharing rules
-    \item YBS: Conceptualization, Writing--major reviews and edits, Resources
+    \item RJ: Project administration, Supervision, Writing original draft, Conceptualization, Writing--major reviews and edits, Resources, Visualization, Extended abstract translation
+    \item AST: Project administration, Supervision, Conceptualization,  Writing--major reviews and edits, Resources, Visualization, Sharing rules, Extended abstract translation
+    \item SM: Conceptualization, Writing--major reviews and edits, Resources, Visualization, Sharing rules, Extended abstract translation
+    \item YBS: Conceptualization, Writing--major reviews and edits, Resources, Extended abstract translation
     \item HT: Conceptualization, Writing--major reviews and edits, Resources
-    \item DHP: Conceptualization, Writing--major reviews and edits, Sharing rules
-    \item NSM: Writing--major reviews and edits, Resources, Visualization, Sharing rules
-    \item MB: Conceptualization
-    \item BA: Writing--major reviews and edits, Resources, Sharing rules
+    \item DHP: Conceptualization, Writing--major reviews and edits, Sharing rules, Extended abstract translation
+    \item NSM: Writing--major reviews and edits, Resources, Visualization, Sharing rules, Extended abstract translation
+    \item MB: Conceptualization, Extended abstract translation
+    \item BA: Writing--major reviews and edits, Resources, Sharing rules, Extended abstract translation
     \item LH: Writing--major reviews and edits, Resources, Sharing rules
     \item LA: Writing--major reviews and edits, Resources
     \item JPN: Writing--major reviews and edits, Visualization
     \item MAC: Writing--major reviews and edits
-    \item FM: Writing--major reviews and edits
-    \item RG: Writing--major reviews and edits
+    \item FM: Writing--major reviews and edits, Extended abstract translation
+    \item RG: Writing--major reviews and edits, Resources, Extended abstract translation
+    \item SC: Resources, Sharing rules
+    \item AE: Sharing rules, Extended abstract translation
     \item AU: Sharing rules
     \item JC: Sharing rules
-    \item AE: Sharing rules
-    \item SC: Sharing rules
-    \item JR: Conceptualization, Writing--major reviews and edits
+    \item JR: Conceptualization, Writing--major reviews and edits, Visualization, Extended abstract translation
 \end{itemize}
 
 
-
 \section*{Acknowledgments}
-The authors of this piece would like to thank every single member of the organizing team of useR! 2021 (\url{https://user2021.r-project.org/about/global-team}) for their valuable contribution to an inclusive conference experience and the R Foundation for trusting us with the organization of useR! 2021 and supporting us through the process. Special thanks to Saranjeet Kaur and Gwynn Sturdevant for suggestions to previous versions of the manuscript, and Francisco Etchart for his help with the figures.
+The authors of this piece would like to thank every single member of the organizing team of useR! 2021 (\url{https://user2021.r-project.org/about/global-team}) for their valuable contribution to an inclusive conference experience and the R Foundation for trusting us with the organization of useR! 2021 and supporting us through the process. Special thanks to Saranjeet Kaur and gwynn sturdevant for suggestions to previous versions of the manuscript, and Francisco Etchart for his help with the figures. We would also like to thank Arjun Krishnan, Julia Ganz, Ingo Braasch, Susan Ewart, and Hilda Mejia-Abreu for their feedback on the manuscript. In addition to some of the authors, we would like to acknowledge the following contributors for translating our extended abstract to several languages: Koki Tsuyuzaki and Kozo Nishida [Japanese], KwangChun Lee [Korean], Arjun Krishnan [Tamil], and Kewalin Samart [Thai].
 
 \section*{Funding}
-HT was supported by the Engineering and Physical Sciences Research Council [EPSRC EP/V052128/1] during the preparation of this article and by The R Foundation for Statistical Computing during the organization of useR! 2021.
-YBS was supported by the Instituto Nacional de Tecnología Agropecuaria, Argentina during the organization of useR! 2021.
-... ...
+
+HT was supported by the Engineering and Physical Sciences Research Council [EPSRC EP/V052128/1] during the preparation of this article and by The R Foundation for Statistical Computing during the organization of useR! 2021. HT was a board member of the The R Foundation for Statistical Computing, serving on the R Foundation conference committee that arranges hosts for the useR! conference series and chairing Forwards, the R Foundation taskforce for women and under-represented groups. The R Foundation is currently funding YBS to support the useR! 2022 organization team. HT was administrator and volunteer for the R Project Google Season of Docs 2021 project, that funded work by AST (writer) and YBS (steering committee).
+The organization of useR! 2021 was largely a volunteer effort, but stipends were available from the conference funds for specific roles. RJ, AST, SM, BA, NM, AU, and AE received code of conduct team stipends; AST, YBS, JPNG, MAC, RG, and JC received zoom host stipends; AST and MAC received stipends for their unrelenting efforts as diversity and social program leads, respectively.
+
+
 
 % \nolinenumbers
 
@@ -645,32 +638,306 @@ YBS was supported by the Instituto Nacional de Tecnología Agropecuaria, Argenti
 % % or
 % %
 % % Compile your BiBTeX database using our plos2015.bst
-\bibliography{community-science}
+%\bibliography{community-science}
 % % style file and paste the contents of your .bbl file
 % % here. See http://journals.plos.org/plosone/s/latex for 
 % % step-by-step instructions.
 % % % 
-% \begin{thebibliography}{10}
+\begin{thebibliography}{10}
 
-% \bibitem{bib1}
-% Conant GC, Wolfe KH.
-% \newblock {{T}urning a hobby into a job: how duplicated genes find new
-%   functions}.
-% \newblock Nat Rev Genet. 2008 Dec;9(12):938--950.
+\bibitem{arendDisparityConferenceRegistration2019}
+Arend ME, Bruijns SR.
+\newblock Disparity in Conference Registration Cost for Delegates from Low- and
+  Middle-Income Backgrounds.
+\newblock African Journal of Emergency Medicine. 2019;9(3):156--161.
+\newblock doi:{10.1016/j.afjem.2019.01.016}.
 
-% \bibitem{bib2}
-% Ohno S.
-% \newblock Evolution by gene duplication.
-% \newblock London: George Alien \& Unwin Ltd. Berlin, Heidelberg and New York:
-%   Springer-Verlag.; 1970.
+\bibitem{biggsAcademicConferenceChilly2018}
+Biggs J, Hawley PH, Biernat M.
+\newblock The {{Academic Conference}} as a {{Chilly Climate}} for {{Women}}:
+  Effects of {{Gender Representation}} on {{Experiences}} of {{Sexism}},
+  {{Coping Responses}}, and {{Career Intentions}}.
+\newblock Sex Roles. 2018;78(5):394--408.
+\newblock doi:{10.1007/s11199-017-0800-9}.
 
-% \bibitem{bib3}
-% Magwire MM, Bayer F, Webster CL, Cao C, Jiggins FM.
-% \newblock {{S}uccessive increases in the resistance of {D}rosophila to viral
-%   infection through a transposon insertion followed by a {D}uplication}.
-% \newblock PLoS Genet. 2011 Oct;7(10):e1002337.
+\bibitem{depickerRethinkingInclusionDisability2020a}
+De~Picker M.
+\newblock Rethinking Inclusion and Disability Activism at Academic Conferences:
+  Strategies Proposed by a {{PhD}} Student with a Physical Disability.
+\newblock Disability \& Society. 2020;35(1):163--167.
+\newblock doi:{10.1080/09687599.2019.1619234}.
 
-% \end{thebibliography}
+\bibitem{irishIncreasingParticipationUsing2020}
+Irish JEN.
+\newblock Increasing Participation: Using the Principles of Universal Design to
+  Create Accessible Conferences.
+\newblock Journal of Convention \& Event Tourism. 2020;21(4):308--330.
+\newblock doi:{10.1080/15470148.2020.1814469}.
+
+\bibitem{sanchez-tapia_user_2021-2}
+{S{\'a}nchez-Tapia} A, Tamir N, Moy~Das S, Bellini~Saibene Y, Joo R, Morandeira
+  N, et~al.. {{useR}}! {{Knowledgebase}}; 2021.
+\newblock https://rconf.gitlab.io/userknowledgebase/.
+
+\bibitem{r_core_team_2021}
+{R Core Team}. R: A Language and Environment for Statistical Computing; 2021.
+\newblock Available from: \url{https://www.R-project.org/}.
+
+\bibitem{crenshawDemarginalizingIntersectionRace1989}
+Crenshaw K.
+\newblock Demarginalizing the {{Intersection}} of {{Race}} and {{Sex}}: A
+  {{Black Feminist Critique}} of {{Antidiscrimination Doctrine}}, {{Feminist
+  Theory}} and {{Antiracist Politics}}.
+\newblock University of Chicago Legal Forum. 1989;1989:139.
+
+\bibitem{numfocus_discover_2021}
+{NumFOCUS Diversity \& Inclusion in Scientific Computing (DISC) Program}.
+  {{DISCOVER Cookbook}} {$\cdot$} {{Diverse}} \& {{Inclusive Spaces}} and
+  {{Conferences}}; 2021.
+\newblock https://discover-cookbook.numfocus.org/.
+
+\bibitem{favaroYourScienceConference2016}
+Favaro B, Oester S, Cigliano JA, Cornick LA, Hind EJ, Parsons ECM, et~al.
+\newblock Your {{Science Conference Should Have}} a {{Code}} of {{Conduct}}.
+\newblock Frontiers in Marine Science. 2016;0.
+\newblock doi:{10.3389/fmars.2016.00103}.
+
+\bibitem{auroraHowRespondCode2019}
+Aurora V, Gardiner M.
+\newblock How to {{Respond}} to {{Code}} of {{Conduct Reports}}. {{A}}
+  Practical Step-by-Step Guide to Handling Code of Conduct Issues.
+\newblock {Frame Shift Consulting LLC}; 2019.
+\newblock Available from:
+  \url{https://frameshiftconsulting.com/resources/code-of-conduct-book/}.
+
+\bibitem{charlton_nothing_1998}
+Charlton JI.
+\newblock Nothing about us without us.
+\newblock University of California Press; 1998.
+
+\bibitem{werner_nothing_1998}
+Werner D, Thuman C, Maxwell J.
+\newblock Nothing about us without us.
+\newblock Developing innovative technologies for, by and with disabled persons
+  Palo Alto: Healthwrights. 1998;.
+
+\bibitem{hongGroupsDiverseProblem2004}
+Hong L, Page SE.
+\newblock Groups of Diverse Problem Solvers Can Outperform Groups of
+  High-Ability Problem Solvers.
+\newblock Proceedings of the National Academy of Sciences.
+  2004;101(46):16385--16389.
+\newblock doi:{10.1073/pnas.0403723101}.
+
+\bibitem{costanzachockDesign2020}
+{Costanza-Chock} S.
+\newblock Design Justice: Community-Led Practices to Build the Worlds We Need.
+\newblock Braman S, editor. Information {{Policy}}. {Cambridge, MA, USA}: {MIT
+  Press}; 2020.
+
+\bibitem{dwyerNoticeWhoScience2021}
+Dwyer JR.
+\newblock Notice Who the Science System Honours, and How.
+\newblock Nature. 2021;595(7865):30--30.
+\newblock doi:{10.1038/d41586-021-01785-3}.
+
+\bibitem{swartzScienceValueDiversity2019}
+Swartz TH, Palermo AGS, Masur SK, Aberg JA.
+\newblock The {{Science}} and {{Value}} of {{Diversity}}: Closing the {{Gaps}}
+  in {{Our Understanding}} of {{Inclusion}} and {{Diversity}}.
+\newblock The Journal of Infectious Diseases. 2019;220(Supplement\_2):S33--S41.
+\newblock doi:{10.1093/infdis/jiz174}.
+
+\bibitem{wongBuildDiversityScience2020}
+Wong VNL, Shaw JD.
+\newblock Build Diversity among Science Prize Winners.
+\newblock Nature. 2020;580(7802):185--185.
+\newblock doi:{10.1038/d41586-020-01033-0}.
+
+\bibitem{dignazioUnicornsJanitorsNinjas2020}
+D'Ignazio C, Klein L.
+\newblock 5. {{Unicorns}}, {{Janitors}}, {{Ninjas}}, {{Wizards}}, and {{Rock
+  Stars}}.
+\newblock In: Data {{Feminism}}. {PubPub}; 2020.Available from:
+  \url{https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/2}.
+
+\bibitem{ross_everyday_2020}
+Ross HJ.
+\newblock Everyday {{Bias}}: {{Identifying}} and {{Navigating Unconscious
+  Judgments}} in {{Our Daily Lives}}.
+\newblock {Rowman \& Littlefield}; 2020.
+
+\bibitem{andersson_implicit_2019}
+Andersson ER, Hagberg C, H{\"a}gg S. Implicit Bias Is Strongest When Assessing
+  Top Candidates; 2019.
+
+\bibitem{cheng2020x+}
+Cheng E.
+\newblock X+ Y: A Mathematician's Manifesto for Rethinking Gender.
+\newblock Basic Books; 2020.
+
+\bibitem{burfordHomelinessMeantHaving2020}
+Burford J, Bosanquet A, Smith J.
+\newblock `{{Homeliness}} Meant Having the Fucking Vacuum Cleaner out': The
+  Gendered Labour of Maintaining Conference Communities.
+\newblock Gender and Education. 2020;32(1):86--100.
+\newblock doi:{10.1080/09540253.2019.1680809}.
+
+\bibitem{light_gender_2022}
+Light AE, {Benson-Greenwald} TM, Diekman AB.
+\newblock Gender Representation Cues Labels of Hard and Soft Sciences.
+\newblock Journal of Experimental Social Psychology. 2022;98:104234.
+
+\bibitem{jooKeepOnlineOption2021}
+Joo R.
+\newblock Keep Online Option at Conferences \textemdash{} It Makes Them More
+  Inclusive.
+\newblock Nature. 2021;598(7880):257--257.
+\newblock doi:{10.1038/d41586-021-02752-8}.
+
+\bibitem{woolstonLearningLoveVirtual2020}
+Woolston C.
+\newblock Learning to Love Virtual Conferences in the Coronavirus Era.
+\newblock Nature. 2020;582(7810):135--136.
+\newblock doi:{10.1038/d41586-020-01489-0}.
+
+\bibitem{ninerBetterWhomLeveling2021}
+Niner HJ, Wassermann SN.
+\newblock Better for {{Whom}}? Leveling the {{Injustices}} of {{International
+  Conferences}} by {{Moving Online}}.
+\newblock Frontiers in Marine Science. 2021;0.
+\newblock doi:{10.3389/fmars.2021.638025}.
+
+\bibitem{roosOnlineConferencesNew2020}
+Roos G, Ol{\'a}h J, Ingle R, Kobayashi R, Feldt M.
+\newblock Online Conferences \textendash{} {{Towards}} a New (Virtual) Reality.
+\newblock Computational and Theoretical Chemistry. 2020;1189:112975.
+\newblock doi:{10.1016/j.comptc.2020.112975}.
+
+\bibitem{levitisCenteringInclusivityDesign2021}
+Levitis E, {van Praag} CDG, Gau R, Heunis S, DuPre E, Kiar G, et~al.
+\newblock Centering Inclusivity in the Design of Online
+  Conferences\textemdash{{An OHBM}}\textendash{{Open Science}} Perspective.
+\newblock GigaScience. 2021;10(8).
+\newblock doi:{10.1093/gigascience/giab051}.
+
+\bibitem{sarabipourChangingScientificMeetings2021}
+Sarabipour S, Khan A, Seah YFS, Mwakilili AD, Mumoki FN, S{\'a}ez PJ, et~al.
+\newblock Changing Scientific Meetings for the Better.
+\newblock Nature Human Behaviour. 2021;5(3):296--300.
+\newblock doi:{10.1038/s41562-021-01067-y}.
+
+\bibitem{salibaGettingGripsOnline2020}
+Saliba M.
+\newblock Getting to Grips with Online Conferences.
+\newblock Nature Energy. 2020;5(7):488--490.
+\newblock doi:{10.1038/s41560-020-0656-z}.
+
+\bibitem{gichoraTenSimpleRules2010a}
+Gichora NN, Fatumo SA, Ngara MV, Chelbat N, Ramdayal K, Opap KB, et~al.
+\newblock Ten {{Simple Rules}} for {{Organizing}} a {{Virtual
+  Conference}}\textemdash{{Anywhere}}.
+\newblock PLOS Computational Biology. 2010;6(2):e1000650.
+\newblock doi:{10.1371/journal.pcbi.1000650}.
+
+\bibitem{bajpai_towards_2021}
+Bajpai V, Hohlfeld O, Crowcroft J, Keshav S.
+\newblock Towards Climate-Friendly Internet Research (Dagstuhl Seminar 21272).
+\newblock In: Dagstuhl Reports. vol.~11. Schloss Dagstuhl-Leibniz-Zentrum
+  f{\"u}r Informatik; 2021.
+
+\bibitem{trianaDoesOrderFacetoFace2012}
+Triana MdC, Kirkman BL, Wagstaff MF.
+\newblock Does the {{Order}} of {{Face}}-to-{{Face}} and
+  {{Computer}}-{{Mediated Communication Matter}} in {{Diverse Project Teams}}?
+  An {{Investigation}} of {{Communication Order Effects}} on {{Minority
+  Inclusion}} and {{Participation}}.
+\newblock Journal of Business and Psychology. 2012;27(1):57--70.
+
+\bibitem{blackEngenderingBelongingThoughtful2020}
+Black AL, Crimmins G, Dwyer R, Lister V.
+\newblock Engendering Belonging: Thoughtful Gatherings with/in Online and
+  Virtual Spaces.
+\newblock Gender and Education. 2020;32(1):115--129.
+\newblock doi:{10.1080/09540253.2019.1680808}.
+
+\bibitem{priceAccessImaginedConstruction2009}
+Price M.
+\newblock Access {{Imagined}}: The {{Construction}} of {{Disability}} in
+  {{Conference Policy Documents}}.
+\newblock Disability Studies Quarterly. 2009;29(1).
+\newblock doi:{10.18061/dsq.v29i1.174}.
+
+\bibitem{marks2021meeting}
+Marks GS, Solomon C, Whitney KS.
+\newblock Meeting frameworks must be even more inclusive.
+\newblock Nature Ecology \& Evolution. 2021;5(5):552--552.
+
+\bibitem{pun_dos_2016}
+Pun K. Dos and Don'ts on Designing for Accessibility - {{Accessibility}} in
+  Government; 2016.
+\newblock
+  https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/.
+
+\bibitem{sanchez-tapia_user_2021}
+{S{\'a}nchez-Tapia} A, Hare L, Ch{\'a}vez J, Canel{\'o}n S, Hug~Peter D.
+  {{useR}}! 2021 {{Accessibility}} Guidelines; 2021.
+
+\bibitem{chavez_preparing_2021}
+Ch{\'a}vez J. Preparing for an {{Accessible Online Conference}}; 2021.
+\newblock
+  https://user2021.r-project.org/blog/2021/02/17/preparing-for-an-accessible-conference//.
+
+\bibitem{sanchez-tapia_making_2021}
+{S{\'a}nchez-Tapia} A, Hare L, Ch{\'a}vez J, Mortara S, Joo R. Making
+  Accessible Presentations at {{useR}}! 2021: The Story behind the Scenes;
+  2021.
+\newblock
+  https://user2021.r-project.org/blog/2021/12/07/accessibility\_awards\_interview//.
+
+\bibitem{joo_how_2021}
+Joo R, Canel{\'o}n S, Ch{\'a}vez J, {S{\'a}nchez-Tapia} A. How to Improve
+  Conference Accessibility for Screen-Reader Users\textemdash an Interview with
+  {{Liz Hare}}; 2021.
+\newblock
+  https://user2021.r-project.org/blog/2021/11/04/accessibility\_interview\_liz\_hare//.
+
+\bibitem{amanoTenTipsOvercoming2021}
+Amano T, Rios~Rojas C, Boum~II Y, Calvo M, Misra BB.
+\newblock Ten tips for overcoming language barriers in science.
+\newblock Nature Human Behaviour. 2021;5(9):1119--1122.
+\newblock doi:{10.1038/s41562-021-01137-1}.
+
+\bibitem{hallDesigningDiversityInclusion2019}
+Hall B. Designing a Diversity and Inclusion ({{D}}\&{{I}}) Communications
+  Strategy; 2019.
+\newblock Available from:
+  \url{https://www.interactsoftware.com/blog/diversity-inclusion-communications-strategy/}.
+
+\bibitem{andalibPostdocQueueLabour2018}
+Andalib MA, Ghaffarzadegan N, Larson RC.
+\newblock The {{Postdoc Queue}}: A {{Labour Force}} in {{Waiting}}.
+\newblock Systems Research and Behavioral Science. 2018;35(6):675--686.
+\newblock doi:{10.1002/sres.2510}.
+
+\bibitem{kaplanPostdocNot2012}
+Kaplan K.
+\newblock Postdoc or Not?
+\newblock Nature. 2012;483(7390):499--500.
+\newblock doi:{10.1038/nj7390-499a}.
+
+\bibitem{canelon2021cost}
+Canelón S. useR!2021 Cost Conversion Tool: Cost Conversion Tool; 2021.
+\newblock Available from:
+  \url{https://spcanelon.github.io/useR2021-cost-conversion-tool}.
+
+\bibitem{eventbrite_ultimate_2017}
+{Eventbrite}. The Ultimate Way to Reduce No-Shows at Free Events;.
+\newblock Available from:
+  \url{https://www.eventbrite.com/blog/asset/ultimate-way-reduce-no-shows-free-events/}.
+
+\end{thebibliography}
+
 
 
 
