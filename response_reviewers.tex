@@ -1,0 +1,135 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+%\usepackage{standalone}
+% \usepackage[breaklinks=true,colorlinks=true,linkcolor=blue,citecolor=black,urlcolor=blue]{hyperref} % url
+\usepackage[top=0.85in,left=1in,footskip=0.75in]{geometry}
+\usepackage[dvipsnames]{xcolor} % colors
+% \definecolor{blue-pigment}{rgb}{0.2, 0.2, 0.6}
+\usepackage[colorinlistoftodos,textwidth=4.3cm]{todonotes} % for comments
+\usepackage[normalem]{ulem} % for sout (strikeout)
+\usepackage{url}
+
+\usepackage[colorinlistoftodos]{todonotes} % for comments
+
+\usepackage{lineno}
+%\usepackage{xr-hyper} 
+\usepackage{xr} 
+%\usepackage{hyperref} 
+\newenvironment{Reply}{\noindent\color{BlueViolet}\textbf{Reply.}}{\vspace{1em}}
+
+%\usepackage{xr} % for getting lines with modifs from the other doc
+%\externaldocument[ms-]{plos_latex_template}
+% In your preamble
+
+\makeatletter
+\newcommand*{\addFileDependency}[1]{% argument=file name and extension
+  \typeout{(#1)}
+  \@addtofilelist{#1}
+  \IfFileExists{#1}{}{\typeout{No file #1.}}
+}
+\makeatother
+
+\newcommand*{\myexternaldocument}[1]{%
+    \externaldocument{#1}%
+    \addFileDependency{#1.tex}%
+    \addFileDependency{#1.aux}%
+}
+\myexternaldocument{plos_latex_template}
+%%%% defining colors for coauthors %%%%
+
+\setlength{\parskip}{0.3cm plus 4mm minus 3mm} % space between paragraphs
+
+\title{Ten simple rules to host an inclusive conference\\ \vspace{0.5cm}
+\textbf{Response to reviewers}}
+\author{}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+
+When you are ready to resubmit, please upload the following:
+
+
+[1] A letter containing a detailed list of your responses to all review comments, and a description of the changes you have made in the manuscript. Please note while forming your response, if your article is accepted, you may have the opportunity to make the peer review history publicly available. The record will include editor decision letters (with reviews) and your responses to reviewer comments. If eligible, we will contact you to opt in or out
+
+[2] Two versions of the revised manuscript: one with either highlights or tracked changes denoting where the text has been changed; the other a clean version (uploaded as the manuscript file).
+
+Important additional instructions are given below your reviewer comments.
+
+ Thank you again for your submission to our journal. We hope that our editorial process has been constructive so far, and we welcome your feedback at any time. Please don't hesitate to contact us if you have any questions or comments.
+
+
+
+Reviewer's Responses to Questions
+
+Comments to the Authors:
+
+\textbf{Reviewer \#1:}
+I greatly enjoyed reading the paper "Ten simple rules to host an inclusive conference", and think it provides an easy to follow set of rules that organizers can use to ensure an inclusive conference. I found many tips for inclusiveness in the article to be especially helpful, such as multilingual accommodations and ensuring screen-reader accessibility.
+
+I just have a few aspects I wasn't 100\% clear on.
+
+(1) In Rule 4, the manuscript states "Define measurable indicators for these goals e.g. a gender distribution of your speakers that is representative of the general population, the participation of people from diverse races and ethnicities among the organizers, speakers, and attendees, or participation from key geographic regions", but how do organizers choose the correct demographics to monitor and the expected background rates? Should it match global, the local, or field-specific rates? Or should it be remediative, where it specifically selects for communities historically ignored in the field beyond the regional population rate?
+
+\begin{Reply}
+   We are going to refer to line numbers in the following way: In the plos\_latex\_template.tex document, add a line number label where you want to edit like this: \\ linelabel\{rev1-com1-a\}
+   To refer to these lines in this document, add a reference here, like this: Lines   \ref{rev1-com1-a} to \ref{rev1-com1-b}
+\end{Reply}
+
+(2) Adding on to the first point, how are the indicators measured? Should the conference organizers quantify the demographics of the attendees/participants? If so, should these details be published to the participants after the conference? How do organizers hold themselves accountable? And to whom are they held accountable to; the organizing committee themselves or the greater community?
+
+\begin{Reply}
+   % Yani: I think we can mention and link to the info board and to the blog post post conference analyzing this numbers like the Latin American one and the accessibility one. The surveys are also another source of data for this accountability. I think this is related with the other review asking about governance. 
+   
+\end{Reply}
+
+(3) In Rule 4, it states "Check the final lists of speakers and do not hesitate to curate them to correct any imbalances you observe;" Does this pertain to invited speakers only, or speakers selected from submitted abstracts? If this pertains to scored abstracts, how does one ensure that this is done in a transparent and reproducible way? Or maybe I'm not fully grasping what curate means in this context?
+
+\begin{Reply}
+   
+\end{Reply}
+
+(4) In Rule 5, it states " The physical venue would have to include multiple ways to connect with online folks such as cameras and microphones to allow them to follow who is speaking at the in-person space, and tablets to help in-person attendees interact with remote participants." How do the tablets help in-person attendees interact with remote participants? Especially participants that may be in a different time-zone. Or are the tablets used to help the online activities mentioned in the next paragraph?
+
+(5) In Rule 7 it states " Allow for abstract submission in both English and the language the person feels more comfortable with, and consider the possibility of assigning a reviewer who is fluent in that language." It is not trivial to submit an abstract in two languages, and if there is no chance that the non-English abstract won't be reviewed I feel like this would be wasting their time. Is it possible to denote the accepted languages ahead of time? Or for the submitter to put in a language request before the abstract deadline?
+
+
+Overall, I think these rules are great. My biggest concern is on the concept of organizing committee accountability. They are defining what the diversity goals are and how they are measured, but it isn't clear to me what input the community has on the conference. I feel like the greater community should be able to have input into the organizing process as well as the ability to see if their concerns are being addressed.
+
+\textbf{Reviewer \#2:}
+L78-L80 As a female scientist I would ask myself "where are we" (because we still have parts of the World where female scientist are rare on leading positions), but I consider science apolitical in every segment, and I certainly suggest that it concentrate here on the scientific youth, the segment of research in industry, etc., and not on the above.
+The rest of the paperit should certainly be praised because it enters into the essence of the exchange of knowledge today.
+
+\textbf{Reviewer \#3:} 
+This is a timely, well-written commentary on organising an inclusive conference and should act as a reference compendium for researchers, practitioners as well as conference organisers.
+
+I have some comments for authors to consider, and possibly expand upon.
+
+1. As much as I enjoyed reading the ten rules, I missed finding mention of how this is to be implemented and governed. Therefore, it is poignant that authors should brief discuss having an inclusion oversight or governance committee that tracks these metrics and their implementation.
+
+2. Secondly, I also missed detailed methodology on how these ten rules were developed or consensus were reached at? Were stakeholders from diverse backgrounds consulted? Was the consultation process iterative? Were the recommendations thus made by those from diverse backgrounds incorporated? How were the final draft reached at - through consensus or voting or a process to that effect? This is important as for such a set of indications to be indicative, it is important that opinions from all backgrounds are taken into account and co-developed.
+
+\begin{Reply}
+   %Yani: I think this is not on the scope of the paper, but we can give an explanation of the process, which I think was fantastic and inclusive and have a diverse background on the construction of the rules. 
+\end{Reply}
+
+3. In Rule 1, though gender or ethnic diversity has been highlighted, geographical diversity needs to be discussed in detail. There is significant "north-south" divide in scientific research - with several of institutions as well as researchers from LMICs or global south not being given appropriate representation on conference committees as well as on speakers diversity.
+
+4. In Rule 2, safe and inclusive environments, I find little attention to "racist" aberrations or incidents - and how they should be mitigated and when reported be appropriately addressed with fairness and justice.
+Several speakers from ethnically diverse backgrounds face racism, exclusion or apathy at such conferences. This need to be discussed.
+
+5. In Rule 4, via a vis bias, bias against people with disability and ethnic minorities should also be highlighted.
+
+6. In Rule 8, inclusive communication strategy - it is important that the speakers from diverse backgrounds, especially from ethnic minorities etc are highlighted or given prominence in social media strategy or communication. Often, these speakers face relatively less focus. This may be discussed.
+
+\begin{Reply}
+   %Yani: I think all keynote deserve the _same_ communication, if we give prominence to minoritized group could be perceived as tokenism. So I would take the suggestion on NOT give more prominence to one group of keynote and make sure that all of them are promote in the same spaces and in the same way.  We can mention here that communities partners can help with the higlight of the minoritazed groups (tricky).
+\end{Reply}
+
+7. In Conclusion, suggest also adding that issues of diversity and inclusion have come to fore even more during COVID-19 as we witness exacerbation of inequities disadvantaging those from vulnerable backgrounds (see https://pubmed.ncbi.nlm.nih.gov/33343410/
+PMID: 33343410)
+
+
+\end{document}

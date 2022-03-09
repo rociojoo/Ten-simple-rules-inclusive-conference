@@ -90,11 +90,13 @@
 % cite package, to clean up citations in the main text. Do not remove.
 \usepackage{cite}
 
-% Use nameref to cite supporting information files (see Supporting Information section for more info)
-\usepackage{nameref,hyperref}
-
 % line numbers
 \usepackage[right]{lineno}
+
+% Use nameref to cite supporting information files (see Supporting Information section for more info)
+\usepackage{xr-hyper}%for cross ref in overleaf
+\usepackage{nameref,hyperref}
+%always load hyperref last
 
 % ligatures disabled
 \usepackage{microtype}
@@ -202,7 +204,7 @@ Dorothea Hug Peter\textsuperscript{8}, %\ddag},
 Natalia Soledad Morandeira\textsuperscript{9},
 Matt Bannert\textsuperscript{10},
 Batool Almazrouq\textsuperscript{11,12},
-Liz Hare\textsuperscript{13},
+Elizabeth Hare\textsuperscript{13},
 Laura Ación\textsuperscript{5,14},
 Juan Pablo Narváez-Gómez\textsuperscript{15},
 Marcela Alfaro Córdoba\textsuperscript{16},
@@ -363,8 +365,8 @@ People outside the dominant groups suffer different forms of oppression, like se
 As a result, some groups of people have been systematically excluded from or only partially included in academic, scientific, and professional circles.
 Recognizing this systematic exclusion is paramount to inclusion.
 Assess how lack of diversity translates to your particular field and scientific or professional community and use this assessment to set the vision and goals of diversity and inclusion for your conference.
-Define measurable indicators for these goals (e.g. a gender distribution of your speakers that is representative of the general population, the participation of people from diverse races and ethnicities among the organizers, speakers, and attendees, or participation from key geographic regions) that will help you be accountable along the way.
-The vision can be expressed in a diversity statement to be used as a reference for decision making in all areas of the conference organization. 
+\linelabel{rev1-com1-a} \hl{Define measurable indicators for these goals (e.g. a gender distribution of your speakers that is representative of the general population, the participation of people from diverse races and ethnicities among the organizers, speakers, and attendees, or participation from key geographic regions) that will help you be accountable along the way.}
+The vision can be expressed in a diversity statement to be used as a reference for decision making in all areas of the conference organization. \linelabel{rev1-com1-b}
 
 \section*{Rule 2: Create a safe and welcoming environment}
 \label{rule_inclusion}
@@ -427,7 +429,7 @@ Selection committees need to be reminded of such biases in the evaluation proces
 Evaluate the plausibility of anonymizing all of the submission information to
 define the most appropriate strategy for reviewing (e.g. double blind, double open, or single blind reviews; see \cite{numfocus_discover_2021}).
 Define clear evaluation criteria and share them with the reviewers and authors.
-Check the final lists of speakers and do not hesitate to curate them to correct any imbalances you observe; even well-meaning and carefully crafted processes can be prone to reproduce the biases present in academia and society.
+\hl{Check the final lists of speakers and do not hesitate to curate them to correct any imbalances you observe}; even well-meaning and carefully crafted processes can be prone to reproduce the biases present in academia and society.
 
 In many academic or technological fields, typically competitive activities or areas—such as scientific publications or software development—are more valued than those focused on sharing and cooperation, like community building, teaching, or mentoring. 
 The latter activities are equally, if not more, relevant and challenging, and are usually performed by women, racialized people, people with disabilities, and other minoritized groups \cite{cheng2020x+, burfordHomelinessMeantHaving2020, light_gender_2022}.
@@ -447,7 +449,7 @@ Avoid creating a strictly synchronous live program; ask for pre-recorded talks, 
 If you are organizing a hybrid event, decide on the relative importance that online and in-person components will take \cite{bajpai_towards_2021}. The most inclusive practice would be to give equal weight to both components, articulating them well and maximizing the experience of everyone attending the conference.
 The audience, chairs, and presenters should all be able to interact regardless of their in-person or remote status. 
 To best integrate in-person and remote attendees, all questions and comments should pass through a unique online system. 
-The physical venue would have to include multiple ways to connect with online folks such as cameras and microphones to allow them to follow who is speaking at the in-person space, and tablets to help in-person attendees interact with remote participants.
+\hl{The physical venue would have to include multiple ways to connect with online folks such as cameras and microphones to allow them to follow who is speaking at the in-person space, and tablets to help in-person attendees interact with remote participants.}
 
 Online networking and socializing can make people from minoritized groups feel more included, thus participate and contribute more, than when meeting face-to-face for the first time (e.g. \cite{trianaDoesOrderFacetoFace2012,blackEngenderingBelongingThoughtful2020}).
 Take advantage of the online component to have a broader range of social activities that can appeal to people with different backgrounds and preferences.
@@ -492,7 +494,7 @@ and conferences may in turn miss innovative contributions.
 
 % Rocío: main idea: make conferences more linguistically inclusive
 Create an inclusive environment by encouraging the full participation of non-native English speakers. This may be done in multiple ways.
-Allow for abstract submission in both English and the language the person feels more comfortable with, and consider the possibility of assigning a reviewer who is fluent in that language. That way, the abstract will be judged primarily by the quality or relevance of the work instead of English proficiency.
+\hl{Allow for abstract submission in both English and the language the person feels more comfortable with, and consider the possibility of assigning a reviewer who is fluent in that language.} That way, the abstract will be judged primarily by the quality or relevance of the work instead of English proficiency.
 Whenever possible, identify other prominent languages for the conference and provide translated captions or live language interpretation into these key languages, including multilingual Q\&A sessions.
 Another way to engage non-native English participants is to host sessions and events in languages other than English. 
 Promote these sessions among all conference attendees and announce if captions will be available; non-English sessions should be given the same relevance as the rest of the program.
