@@ -311,12 +311,13 @@ Conferences are spaces to meet and reconnect with members from a specific commun
 A good conference experience can make a difference in the professional development of the participants and create long-lasting collaborations and opportunities. 
 However, opportunities for participating in conferences are not equally available for all. 
 Many academic and tech conferences have been spaces that reproduce systemic inequalities, by failing to overcome the barriers for participation and giving more opportunities to the most privileged individuals (typically white people from high-income backgrounds, prestigious institutions, native English speakers with no disabilities) \cite{arendDisparityConferenceRegistration2019, biggsAcademicConferenceChilly2018, depickerRethinkingInclusionDisability2020a, irishIncreasingParticipationUsing2020}.
-Like many others, the authors of this article have experienced these inequalities in conferences, from different perspectives and levels of inclusion/exclusion and privilege.
+\linelabel{background-a}Like many others, the authors of this article have experienced these inequalities in conferences, from different perspectives and levels of inclusion/exclusion and privilege. \linelabel{background-b}
 We had the opportunity to organize a virtual and global statistical computing conference, useR! 2021 \cite{sanchez-tapia_user_2021-2}, for users and developers of the R programming language \cite{r_core_team_2021}.
 Coming from different backgrounds, career stages, and even continents, we embraced the challenge of organizing a high-quality virtual conference in the context of the COVID-19 pandemic and making it a kind, inclusive, and accessible experience for as many people as possible.
 
 % Roadmap of the paper
-Here, we present a set of ten rules based on the lessons we learned before, during, and after the organization of the useR! conference. 
+Here, we present a set of ten rules based on the lessons we learned before, during, and after the organization of the useR! conference.
+\linelabel{methods-a} \hl{The rules were first drafted by the first author; then the leading group and the members of the diversity, accessibility, and inclusion team were invited to write their own ten simple rules---everyone's rules are in XXX. The rules in this manuscript are a result of all of these rules and further discussions with and contributions from all the coauthors, fueled by personal experiences and literature review.} \linelabel{methods-b}
 They are organized in three sections: three foundational rules, six design rules, and a continuity rule (\textbf{Fig. \ref{fig:diagram}}).
 The \textbf{foundational rules} comprise key elements to conceive the work on diversity and inclusion in any conference. 
 \textbf{Rule 1} is about setting a vision of diversity and inclusion that should guide all the efforts and decision making in the organization.
@@ -364,9 +365,16 @@ Some statuses (e.g. being cisgender, white, male, from North America or Western 
 People outside the dominant groups suffer different forms of oppression, like sexism, racism, ableism, homophobia, and transphobia, and sometimes these forms of oppression happen simultaneously and in complex ways (a concept known as `intersectionality' \cite{crenshawDemarginalizingIntersectionRace1989}).
 As a result, some groups of people have been systematically excluded from or only partially included in academic, scientific, and professional circles.
 Recognizing this systematic exclusion is paramount to inclusion.
-Assess how lack of diversity translates to your particular field and scientific or professional community and use this assessment to set the vision and goals of diversity and inclusion for your conference.
-\linelabel{rev1-com1-a} \hl{Define measurable indicators for these goals (e.g. a gender distribution of your speakers that is representative of the general population, the participation of people from diverse races and ethnicities among the organizers, speakers, and attendees, or participation from key geographic regions) that will help you be accountable along the way.}
-The vision can be expressed in a diversity statement to be used as a reference for decision making in all areas of the conference organization. \linelabel{rev1-com1-b}
+Assess how lack of diversity translates to your particular field and scientific or professional community and use this assessment to set the vision and goals of diversity and inclusion for your conference. %depends on what information is available when defining inclusiveness goals. When DEI studies in the particular field of the conference are available, these should be used. Otherwise, global metrics in STEM, social sciences, and humanities should be used. Other indicators, like gender balance, can be set without the need for concrete studies in the area.
+\linelabel{indicators-1} \hl{The result of this assessment will vary between areas of knowledge and depending on the geographic context of the conference. 
+Involving the community---that is, the subset of the general public that would ideally attend the conference---%and for whom you are organizing the conference
+early in this stage can help you set these goals in a collective and participative way.%be very revealing of their perception about the people who usually get to attend the conferences in the area. not this. judgemental
+} \linelabel{indicators-2}
+
+Define measurable indicators for these goals (e.g. a gender distribution of your speakers that is representative of the general population, the participation of people from diverse races and ethnicities among the organizers, speakers, and attendees, or participation from key geographic regions) 
+that will help you be accountable along the way
+\linelabel{rule10} \hl{and assess to what extent your inclusion goals were met (see \textbf{Rule 10})}.
+The vision can be expressed in a diversity statement to be used as a reference for decision making in all areas of the conference organization.
 
 \section*{Rule 2: Create a safe and welcoming environment}
 \label{rule_inclusion}
@@ -426,9 +434,9 @@ If this does not exist in your field yet, consider asking members of your commun
 
 The abstract review process can be subjected to implicit bias \cite{ross_everyday_2020} when folks in the selection committee unconsciously assign a positive or negative value to the names and affiliations of authors—and their perceived origin, ethnicity, gender, or native language—, affecting the chances to get their work accepted. 
 Selection committees need to be reminded of such biases in the evaluation process to try to avoid judging more scrupulously the work of people perceived as part of minoritized groups, or being kinder when reviewing the abstracts from those perceived as part of privileged groups and considering their work as more relevant \cite{swartzScienceValueDiversity2019, andersson_implicit_2019}.
-Evaluate the plausibility of anonymizing \hl{as much of the submission information as possible} \linelabel{anonymous}, and
+Evaluate the plausibility of anonymizing \hl{the submission information as much as possible} \linelabel{anonymous}, and
 define the most appropriate strategy for reviewing (e.g. double blind, double open, or single blind reviews; see \cite{numfocus_discover_2021}).
-Define clear evaluation criteria and share them with the reviewers and authors \hl{before they read any of the submissions} \linelabel{criteria}.
+\linelabel{criteria-1}Define clear evaluation criteria and share them with the reviewers and authors \hl{preferably during the call for abstracts} \linelabel{criteria}.
 \hl{Examine the final list of selected abstracts to verify if similar quality work may have been judged differently due to some apparent bias} \linelabel{not-curation}; even well-meaning and carefully crafted processes can be prone to reproduce the biases present in academia and society.
 
 In many academic or technological fields, typically competitive activities or areas—such as scientific publications or software development—are more valued than those focused on sharing and cooperation, like community building, teaching, or mentoring. 
@@ -515,7 +523,7 @@ Promote the abstract submission call beyond the usual communication channels and
 The members of your team should be able to decide which languages to emphasize and which social media platforms to utilize for the promotion of the conference (e.g. Twitter, Facebook, LinkedIn, conference website, mailing lists).
 
 Publish the diversity statement, code of conduct, accessibility guidelines, and options for financial support (see \textbf{Rule 9}) to communicate your values and practices, and to hold yourself accountable for them.
-Be transparent with potential attendees and communicate limitations of your conference to let them know what to expect, and ways in which you will try to mitigate these issues. 
+\linelabel{accountability-1}Be transparent with potential attendees and communicate limitations of your conference to let them know what to expect, and ways in which you will try to mitigate these issues. 
 For instance, inform if the conference platform is not completely screen-reader friendly, let people know if you are offering help to navigate it, or if captions will be available for some talks but not all.
 Provide a point of contact to help clarify any questions regarding accessibility, financial support, and others.
 
@@ -565,11 +573,13 @@ Bear in mind that transferring money internationally could be a cumbersome admin
 % Rocío: main idea: assess how inclusive was the conference
 As conference organizers, one of the key post-conference tasks is to make a final assessment of the achievement of the diversity and inclusion goals. 
 You can rely on the diversity indicators defined at the beginning of the planning process (\textbf{Rule 1}). 
-It is likely that you will be able to calculate some of your indicators directly from information that you have already collected from your organizing team, speakers, and participants (e.g. countries of origin, or preferred language).
-You may have goals concerning how welcomed and included participants felt during the conference, and wonder if your practices translated into real inclusion. Surveys, focal groups, and informal conversations during and after the conference are good ways to collect this type of information and great opportunities to receive feedback from the attendees. 
+It is likely that you will be able to calculate some of your indicators directly from \linelabel{info}the information that you have already collected from your organizing team, speakers, and participants (e.g. countries of origin, or preferred language).
+You may have goals concerning how welcomed and included participants felt during the conference, and wonder if your practices translated into real inclusion. 
+\linelabel{info2}Surveys, focal groups, and informal conversations during and after the conference are good ways to collect this type of information and great opportunities to receive feedback from the attendees. 
 
 % Pass the information
-The feedback received from the participants and your whole assessment of the conference should be documented and shared with future organizers. 
+The feedback received from the participants and your whole assessment of the conference should be documented and shared with \linelabel{data-share}\hl{those who helped define the inclusion goals, the attendants, and} future organizers. 
+%ast: Rocío, we had in previous versions a part talking about data privacy and anonymization, maybe we could add a quick mention to this here, share with whom (and add the community) with some precaution.
 Gather and do your best to organize all the documentation produced during the organization process—or even after. Timelines, checklists, budgeting tips, email templates, accessibility checks and guidelines, are a few of many resources that can be shared with your conference successors. 
 Create a list with contact information of the people of the organizing team, as well as previous and potential speakers—if they agree to share their contact information—, and pass it along.
 For conference series, it could be a good idea to create an official document (e.g. a wiki, knowledge base or similar guide, see for instance \cite{sanchez-tapia_user_2021-2}) that can be used and kept up to date by future organizers.
@@ -596,26 +606,26 @@ That is more than enough motivation to make the effort worth it.
 To list author contributions, we used the high-level contributor roles in the CRediT framework that we considered relevant for this study (project administration, supervision, writing original draft, conceptualization, writing—major reviews and edits, resources, and visualization; \url{http://credit.niso.org}), and additional categories to acknowledge those who shared their own ten simple rules for an inclusive conference without looking at the first draft (i.e. sharing rules), and those who translated the extended abstract into different languages.
 
 \begin{itemize}
-    \item RJ: Project administration, Supervision, Writing original draft, Conceptualization, Writing--major reviews and edits, Resources, Visualization, Extended abstract translation
-    \item AST: Project administration, Supervision, Conceptualization,  Writing--major reviews and edits, Resources, Visualization, Sharing rules, Extended abstract translation
-    \item SM: Conceptualization, Writing--major reviews and edits, Resources, Visualization, Sharing rules, Extended abstract translation
-    \item YBS: Conceptualization, Writing--major reviews and edits, Resources, Extended abstract translation
-    \item HT: Conceptualization, Writing--major reviews and edits, Resources
-    \item DHP: Conceptualization, Writing--major reviews and edits, Sharing rules, Extended abstract translation
-    \item NSM: Writing--major reviews and edits, Resources, Visualization, Sharing rules, Extended abstract translation
+    \item RJ: Project administration, Supervision, Writing original draft, Conceptualization, Writing---major reviews and edits, Resources, Visualization, Extended abstract translation
+    \item AST: Project administration, Supervision, Conceptualization,  Writing---major reviews and edits, Resources, Visualization, Sharing rules, Extended abstract translation
+    \item SM: Conceptualization, Writing---major reviews and edits, Resources, Visualization, Sharing rules, Extended abstract translation
+    \item YBS: Conceptualization, Writing---major reviews and edits, Resources, Extended abstract translation
+    \item HT: Conceptualization, Writing---major reviews and edits, Resources
+    \item DHP: Conceptualization, Writing---major reviews and edits, Sharing rules, Extended abstract translation
+    \item NSM: Writing---major reviews and edits, Resources, Visualization, Sharing rules, Extended abstract translation
     \item MB: Conceptualization, Extended abstract translation
-    \item BA: Writing--major reviews and edits, Resources, Sharing rules, Extended abstract translation
-    \item LH: Writing--major reviews and edits, Resources, Sharing rules
-    \item LA: Writing--major reviews and edits, Resources
-    \item JPN: Writing--major reviews and edits, Visualization
-    \item MAC: Writing--major reviews and edits
-    \item FM: Writing--major reviews and edits, Extended abstract translation
-    \item RG: Writing--major reviews and edits, Resources, Extended abstract translation
+    \item BA: Writing---major reviews and edits, Resources, Sharing rules, Extended abstract translation
+    \item LH: Writing---major reviews and edits, Resources, Sharing rules
+    \item LA: Writing---major reviews and edits, Resources
+    \item JPN: Writing---major reviews and edits, Visualization
+    \item MAC: Writing---major reviews and edits
+    \item FM: Writing---major reviews and edits, Extended abstract translation
+    \item RG: Writing---major reviews and edits, Resources, Extended abstract translation
     \item SC: Resources, Sharing rules
     \item AE: Sharing rules, Extended abstract translation
     \item AU: Sharing rules
     \item JC: Sharing rules
-    \item JR: Conceptualization, Writing--major reviews and edits, Visualization, Extended abstract translation
+    \item JR: Conceptualization, Writing---major reviews and edits, Visualization, Extended abstract translation
 \end{itemize}
 
 
