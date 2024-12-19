@@ -17,3 +17,5 @@ Translated versions of the English abstract and the list of rules are available 
 
 [Manuscript](https://github.com/rociojoo/Ten-simple-rules-inclusive-conference/blob/main/Ten_simple_rules_towards_an_inclusive_conference.pdf) | [Figures](https://github.com/rociojoo/Ten-simple-rules-inclusive-conference/tree/main/figs) |
 [Supplementary Information](https://github.com/rociojoo/Ten-simple-rules-inclusive-conference/blob/main/10sr-supplementary_information.pdf)
+
+[Published in PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010164)
